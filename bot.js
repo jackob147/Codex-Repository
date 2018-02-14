@@ -1252,4 +1252,4 @@ async def on_message(message):
 
 
 
-client.run (process.env.NDEyMDI1OTMzNjQ2NjU5NTkw.DWTVOw.ItuboATx8CV9oCYnZXKFhz18X0Y)
+client.login(process.env.BOT_TOKEN);
