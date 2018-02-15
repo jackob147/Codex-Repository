@@ -1141,10 +1141,9 @@ async def on_message(message):
 
 
 
-   --------------------BUILDS--------------------------
+ 
 
-   if "!BUILD ASH" in message.content.upper():
-        await client.send_message(message.channel, "BUILD DO ASH BLADSTORM: \n")
+   
 
    
 
