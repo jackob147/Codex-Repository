@@ -1,11 +1,5 @@
-import discord
-from discord.ext.commands import Bot
-from discord.ext import commands
-import asyncio
-import time
-
-Client = discord.Client()
-client = commands.Bot(command_prefix = "!")
+const Discord = require('discord.js');
+const client = new Discord.Client();
 
 @client.event
 async def on_ready():
