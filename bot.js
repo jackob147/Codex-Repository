@@ -1,5 +1,11 @@
-const Discord = require('discord.js');
-const client = new Discord.Client();
+import discord
+from discord.ext.commands import Bot
+from discord.ext import commands
+import asyncio
+import time
+
+Client = discord.Client()
+client = commands.Bot(command_prefix = "!")
 
 @client.event
 async def on_ready():
@@ -1256,9 +1262,7 @@ async def on_message(message):
 
         
         
-client.run ("NDEyMDI1OTMzNjQ2NjU5NTkw.DWTVOw.ItuboATx8CV9oCYnZXKFhz18X0Y")
 
 
 
-// THIS  MUST  BE  THIS  WAY
-client.login(process.env.BOT_TOKEN);
+client.run (process.env.BOT_TOKEN)
