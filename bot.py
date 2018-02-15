@@ -1140,7 +1140,7 @@ async def on_message(message):
         await client.send_message(message.channel, "http://warframe.wikia.com/wiki/WARFRAME_Wiki")
         
     if message.content.upper() == "!HUB":
-        await client.send_message(message.channel, "https://hub.warframestat.us/")
+        await client.send_message(message.channel, "https://hub.warframestat.us/timer")
 
 
 
