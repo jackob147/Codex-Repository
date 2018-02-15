@@ -1141,6 +1141,9 @@ async def on_message(message):
         
     if message.content.upper() == "!HUB":
         await client.send_message(message.channel, "https://hub.warframestat.us/timer")
+        
+    if message.content.upper() == "!BUILD TRINITY PRIME":
+        await client.send_message(message.channel, "http://warframe-builder.com/Warframes/Builder/Trinity_Prime/t_30_0420243040_1-1-10-5-3-5-6-0-5-12-4-10-37-8-5-46-5-5-55-6-5-411-2-10-523-7-3-615-9-5_6-11-1-7-411-8-5-9-12-8-46-6-55-6-523-9-37-14-615-9_0/en/1-0-40/156279/0")
 
 
 
