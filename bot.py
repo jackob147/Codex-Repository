@@ -1,5 +1,7 @@
 import discord
 import os
+import random
+import pickle
 from discord.ext.commands import Bot
 from discord.ext import commands
 import asyncio
@@ -1152,7 +1154,19 @@ async def on_message(message):
 
    
 
-   
+    if message.content.upper.startwith('!DARDICA'):
+        if not os.path.isfile("quote_file.pk1"):
+            quote_list = []
+        else:
+            with open("quote_file.pk1", "rb") as quote_file:
+                quote_list = pickle.load(quote_file)
+            quote_list.appand(message.content[8:])
+            with open("quote_file.pk1", "wb") as quote_file:
+                pickle.dump(quote_list, quote_file)
+        elif message.content.uper.startwith("!DICA"):
+            with open("quote_file.pk1", "rb") as quote_file:
+                quote_list = pickle.load(quote_file)
+                await client.send_message(message.channel, random.choice(quote_list))
 
     
 
