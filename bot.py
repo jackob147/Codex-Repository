@@ -222,7 +222,7 @@ async def on_message(message):
         await client.send_message(message.channel, "As partes do Warframe Excalibur dropam do chefe Lech Kril, em War - Marte")
 
     if "!EXCALIBUR" in message.content.upper():
-        await client.send_message(message.channel, "As partes do Warframe Excalibur dropam do chefe Lech Kril, em War - Marte. \n https://www.youtube.com/watch?v=II8Up3NnZpI&list=PLDmrv5FhAWj_VzURMqylYnfxlRWvtLspv&index=16")
+        await client.send_message(message.channel, "As partes do Warframe Excalibur dropam do chefe Lech Kril, em War - Marte. \n <https://www.youtube.com/watch?v=II8Up3NnZpI&list=PLDmrv5FhAWj_VzURMqylYnfxlRWvtLspv&index=16>")
 
     if "COMO FAÇO PRA FARMAR KUVA" in message.content.upper():
         await client.send_message(message.channel, "https://www.youtube.com/watch?v=CkKtR5940Z4")
