@@ -1146,7 +1146,7 @@ async def on_message(message):
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
 
     if message.content.upper() == "!BUILD TRINITY BLESSING":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181160843870219/VAUBAN_REPELLING.png")
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181141340225537/TRINITY_BLESSING.png")
 
  
 
