@@ -1143,10 +1143,10 @@ async def on_message(message):
         await client.send_message(message.channel, "https://hub.warframestat.us/timer")
         
     if message.content.upper() == "!BUILD TRINITY ENERGY VAMPIRE":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/413183910755958785/414100161900576781/Trinity_EV.png")
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
 
     if message.content.upper() == "!BUILD TRINITY BLESSING":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/413183910755958785/414100717297729536/TRINITY_BLESSING.png")
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181160843870219/VAUBAN_REPELLING.png")
 
  
 
