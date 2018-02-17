@@ -1145,6 +1145,9 @@ async def on_message(message):
     if message.content.upper() == "!BUILD TRINITY ENERGY VAMPIRE":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
 
+    if message.content.upper() == "!BUILD TRINITY BLESSING":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181141340225537/TRINITY_BLESSING.png")
+
     if message.content.upper() == "!BUILD ASH":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181141340225537/TRINITY_BLESSING.png")
 
@@ -1279,12 +1282,24 @@ async def on_message(message):
         
     if message.content.upper() == "!BUILD":
         await client.send_message(message.channel, "Por favor, especifique o Warframe. Armas não estão disponíveis no momento.")
-        
-        
-        
-        
-        
-     if message.content.upper().startswith('!AJUDA'):
+
+   
+
+   
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+    if message.content.upper().startswith('!AJUDA'):
         userID = message.author.id
         await client.send_message(message.channel, "<@%s> Posso lhe ajudar com locais de drop de recursos e warframes, informaçoes sobre itens do jogo, mods, etc. Caso tenha alguma dica de melhoria, fale com o Jackob." % (userID) )
 
