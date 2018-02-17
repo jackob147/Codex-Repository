@@ -1145,27 +1145,146 @@ async def on_message(message):
     if message.content.upper() == "!BUILD TRINITY ENERGY VAMPIRE":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
 
-    if message.content.upper() == "!BUILD TRINITY BLESSING":
+    if message.content.upper() == "!BUILD ASH":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181141340225537/TRINITY_BLESSING.png")
 
+    if message.content.upper() == "!BUILD ATLAS":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
  
+    if message.content.upper() == "!BUILD BANSHEE":
+        await client.send_message(message.channel, "Há três builds disponíveis para a Banshee, especifique a sua escolha. \n !Resonance \n !Savage \n !Soundquake")
 
+    if message.content.upper().startswith ("!RESONANCE"): 
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
    
+    if message.content.upper().startswith ("!SAVAGE"):
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
 
+    if message.content.upper().startswith ("!SOUNDQUAKE"):
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
      
+    if message.content.upper() == "!BUILD CHROMA":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
     
+    if message.content.upper() == "!BUILD EMBER":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
 
+    if message.content.upper() == "!BUILD EQUINOX":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
     
+    if message.content.upper() == "!BUILD EXCALIBUR":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
 
+    if message.content.upper() == "!BUILD FROST":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
     
+    if message.content.upper() == "!BUILD GARA":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
 
+    if message.content.upper() == "!BUILD HARROW":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
 
+    if message.content.upper() == "!BUILD HYDROID":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
 
+    if message.content.upper() == "!BUILD INAROS":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
 
+    if message.content.upper() == "!BUILD IVARA":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
 
+    if message.content.upper() == "!BUILD LIMBO":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
 
+    if message.content.upper() == "!CONTROLE":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
 
-    if message.content.upper().startswith('!AJUDA'):
+    if message.content.upper() == "!DEFESA":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+   
+    if message.content.upper() == "!BUILD LOKI":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+
+    if message.content.upper() == "!BUILD MAG":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+
+    if message.content.upper() == "!BUILD MESA":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+
+    if message.content.upper() == "!BUILD NEKROS":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+
+    if message.content.upper() == "!BUILD MIRAGE":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+
+    if message.content.upper() == "!BUILD NEZHA":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+
+    if message.content.upper() == "!BUILD NIDUS":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+
+    if message.content.upper() == "!BUILD NOVA":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+
+    if message.content.upper() == "!SLOW":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+
+    if message.content.upper() == "!SPEED":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+
+    if message.content.upper() == "!BUILD NYX":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+
+    if message.content.upper() == "!BUILD OCTAVIA":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+
+    if message.content.upper() == "!BUILD OBERON":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+
+    if message.content.upper() == "!BUILD RHINO":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+
+    if message.content.upper() == "!IRON SKIN":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+
+    if message.content.upper() == "!STOMP":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+
+    if message.content.upper() == "!BUILD SARYN":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+
+    if message.content.upper() == "!BUILD TITANIA":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+
+    if message.content.upper() == "!BUILD VALKYR":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+
+    if message.content.upper() == "!BUILD VAUBAN":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        
+    if message.content.upper() == "!BASTILLE":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        
+    if message.content.upper() == "!VORTEX":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        
+    if message.content.upper() == "!BUILD VOLT":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        
+    if message.content.upper() == "!BUILD WUKONG":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        
+    if message.content.upper() == "!BUILD ZEPHYR":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        
+    if message.content.upper() == "!BUILD":
+        await client.send_message(message.channel, "Por favor, especifique o Warframe. Armas não estão disponíveis no momento.")
+        
+        
+        
+        
+        
+     if message.content.upper().startswith('!AJUDA'):
         userID = message.author.id
         await client.send_message(message.channel, "<@%s> Posso lhe ajudar com locais de drop de recursos e warframes, informaçoes sobre itens do jogo, mods, etc. Caso tenha alguma dica de melhoria, fale com o Jackob." % (userID) )
 
