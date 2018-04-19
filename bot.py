@@ -1283,41 +1283,7 @@ async def on_message(message):
     if message.content.upper() == "!BUILD":
         await client.send_message(message.channel, "Por favor, especifique o Warframe. Armas não estão disponíveis no momento.")
 
-    if message.content.upper() == "!BUILD NIKANA PRIME":
-        await client.send_message(message.channel, "")
-
-    if message.content.upper() == "!BUILD DUAL TOXOCYST":
-        await client.send_message(message.channel, "")
-
-    if message.content.upper() == "!BUILD AKSTILETTO PRIME":
-        await client.send_message(message.channel, "https://i.imgur.com/T7YBjFQ.jpg")
-        
-    if message.content.upper() == "!BUILD 566213":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
-        
-    if message.content.upper() == "!BUILD 165156":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
-        
-    if message.content.upper() == "!BUILD 156156":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/41417
-
-    if message.content.upper() == "!BUILD XAXDAS":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
-
-    if message.content.upper() == "!BUILD ASDASDA":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
-
-    if message.content.upper() == "!BUILD ASDAXDX":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
-        
-    if message.content.upper() == "!BUILD ASDAXDW":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
-        
-    if message.content.upper() == "!BUILD XCACXAS":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
-        
-    if message.content.upper() == "!BUILD BBNHF":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/41417   
+   
 
    
 
