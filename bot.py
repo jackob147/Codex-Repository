@@ -1283,8 +1283,47 @@ async def on_message(message):
     if message.content.upper() == "!BUILD":
         await client.send_message(message.channel, "Por favor, especifique o Warframe. Armas não estão disponíveis no momento.")
 
-   
+    if message.content.upper() == "!BUILD NIKANA PRIME":
+        await client.send_message(message.channel, "https://i.imgur.com/V8avqTe.jpg")
 
+    if message.content.upper() == "!BUILD AKSTILETTO PRIME":
+        await client.send_message(message.channel, "https://i.imgur.com/T7YBjFQ.jpg")
+
+    if message.content.upper() == "!BUILD DUAL TOXOCYST":
+        await client.send_message(message.channel, "https://i.imgur.com/A29IkUX.jpg")
+
+    if message.content.upper() == "!BUILD 11":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+
+    if message.content.upper() == "!BUILD 12":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+
+    if message.content.upper() == "!BUILD 13":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+
+    if message.content.upper() == "!BUILD 14":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+
+    if message.content.upper() == "!BUILD 15":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+
+    if message.content.upper() == "!BUILD 16":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        
+    if message.content.upper() == "!BUILD 17":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        
+    if message.content.upper() == "!BUILD 18":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        
+    if message.content.upper() == "!BUILD 19":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        
+    if message.content.upper() == "!BUILD 20":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        
+    if message.content.upper() == "!BUILD 21":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
    
 
     
