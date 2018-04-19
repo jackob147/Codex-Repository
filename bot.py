@@ -1292,8 +1292,8 @@ async def on_message(message):
     if message.content.upper() == "!BUILD DUAL TOXOCYST":
         await client.send_message(message.channel, "https://i.imgur.com/A29IkUX.jpg")
 
-    if message.content.upper() == "!BUILD 11":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+    if message.content.upper() == "!BUILD SOMA PRIME":
+        await client.send_message(message.channel, "https://i.imgur.com/0cCvb2v.png")
 
     if message.content.upper() == "!BUILD 12":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
