@@ -1164,9 +1164,7 @@ async def on_message(message):
     if message.content.upper() == "!BUILD BANSHEE":
         await client.send_message(message.channel, "Há duas builds disponíveis para a Banshee Prime, especifique a sua escolha. \n !SAVAGE \n !SOUNDQUAKE")
 
-    if message.content.upper().startswith ("!RESONANCE"): 
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
-   
+    
     if message.content.upper().startswith ("!SAVAGE"):
         await client.send_message(message.channel, "Build perfeita para espionagens, girando em torno do Savage Silence. \n https://i.imgur.com/5PfhHVj.png")
 
@@ -1181,6 +1179,12 @@ async def on_message(message):
 
     if message.content.upper() == "!BUILD EQUINOX":
         await client.send_message(message.channel, "Há quatro builds disponíveis para o Equinox, especifique a sua escolha. \n !PM (Provoke e Maim/diurna) \n !PROVOKE (diurna) \n !REST \n !MM (Mend & Maim)")
+        
+    if message.content.upper().startswith ("!PM"):
+        await client.send_message(message.channel, "Build focada em Provoke e Maim (Forma diurna). \n https://i.imgur.com/iPNM3p4.png")
+
+    if message.content.upper().startswith ("!PROVOKE"):
+        await client.send_message(message.channel, "Build Focada em Provoke 80% (Forma diurna). \n https://i.imgur.com/qEukKAI.png")        
         
         
     if message.content.upper().startswith ("!PM"):
@@ -1301,7 +1305,7 @@ async def on_message(message):
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
         
     if message.content.upper() == "!BUILD":
-        await client.send_message(message.channel, "Por favor, especifique o Warframe. Armas não estão disponíveis no momento.")
+        await client.send_message(message.channel, "Por favor, especifique o Warframe ou arma. Perceba que algumas builds ainda estão em desenvolvimento, então irá notar algumas builds de Trinity onde não deveria haver.")
 
     if message.content.upper() == "!BUILD NIKANA PRIME":
         await client.send_message(message.channel, "https://i.imgur.com/V8avqTe.jpg")
@@ -1358,7 +1362,7 @@ async def on_message(message):
         await client.send_message(message.channel, "Há duas builds disponíveis para a Euponha, especifique a sua escolha. \n !EUPHONA EIDOLON \n !EUPHONA CRÍTICO")
                                   
     if message.content.upper().startswith ("!EUPHONA EIDOLON"):
-        await client.send_message(message.channel, "Como o Teralyst é fraco para radiacao, e a Euphona é muito forte, esta build dá one hit a um membro de um teralyst com o buff de Vex Armor do Chroma. \n https://i.imgur.com/85u7dzO.png")
+        await client.send_message(message.channel, "Como o Teralyst é fraco para radiacão, e a Euphona é muito forte, esta build dá one hit a um membro de um teralyst com o buff de Vex Armor do Chroma. \n https://i.imgur.com/85u7dzO.png")
 
     if message.content.upper().startswith ("!EUPHONA CRÍTICO"):
         await client.send_message(message.channel, "Build para a Euphona focada em dano crítico combinado com o dano corrosivo. \n https://i.imgur.com/GJT0yFV.png")                                  
