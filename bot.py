@@ -1186,6 +1186,11 @@ async def on_message(message):
     if message.content.upper().startswith ("!PROVOKE"):
         await client.send_message(message.channel, "Build Focada em Provoke 80% (Forma diurna). \n https://i.imgur.com/qEukKAI.png")        
         
+    if message.content.upper().startswith ("!REST"):
+        await client.send_message(message.channel, "Build focada em Rest (Forma noturna). Perfeita para o farm de focus com o bônus stealth. \n https://i.imgur.com/zCki8WM.png")
+
+    if message.content.upper().startswith ("!MM"):
+        await client.send_message(message.channel, "Build com foco na ultimate de Equinox, podendo causar uma grande quantidade de dano (forma diurna) ou uma grande quantidade de cura em área (forma diurna). \n https://i.imgur.com/n9NoJLA.png")        
         
     if message.content.upper().startswith ("!PM"):
         await client.send.message(message.channel, "Build focada em Provoke e Maim (Forma diurna). \n https://i.imgur.com/iPNM3p4.png")
