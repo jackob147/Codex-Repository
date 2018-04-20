@@ -1352,7 +1352,7 @@ async def on_message(message):
         await client.send_message(message.channel, "Build de Status para a Braton Prime. \n https://i.imgur.com/Xt6jbqg.png")
                                   
     if message.content.upper() == "!BUILD BROKEN WAR":
-        await client.send_message(message.channel, "Build para a Broken War com bastante velocidade de ataque e status. \n https://i.imgur.com/Y8Vy6lG.png)
+        await client.send_message(message.channel, "Build para a Broken War com bastante velocidade de ataque e status. \n https://i.imgur.com/Y8Vy6lG.png")
         
     if message.content.upper() == "!BUILD EUPHONA":
         await client.send_message(message.channel, "Há duas builds disponíveis para a Euponha, especifique a sua escolha. \n !EUPHONA EIDOLON \n !EUPHONA CRÍTICO")
