@@ -1148,33 +1148,53 @@ async def on_message(message):
     if message.content.upper() == "!BUILD TRINITY BLESSING":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181141340225537/TRINITY_BLESSING.png")
 
-    if message.content.upper() == "!BUILD ASH":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181141340225537/TRINITY_BLESSING.png")
+    if message.content.upper() == "!BUILD ASH PRIME":
+        await client.send_message(message.channel, "Há duas builds disponíveis para o Ash Prime, especifique a sua escolha. \n !Blade \n !Smoke")
+        
+    if message.content.upper().startswith ("!SMOKE"):
+        await client.send_message(message.channel, "Build focada em Duração. Excelente para o farm de Kuva. \n https://i.imgur.com/iPTWEHX.png")
+        
+
+    if message.content.upper().startswith ("!BLADE"):
+        await client.send_message(message.channel, "Build Focada na 2ª e 4ª skill. \n https://i.imgur.com/o8Du7YM.png")
 
     if message.content.upper() == "!BUILD ATLAS":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
  
     if message.content.upper() == "!BUILD BANSHEE":
-        await client.send_message(message.channel, "Há três builds disponíveis para a Banshee, especifique a sua escolha. \n !Resonance \n !Savage \n !Soundquake")
+        await client.send_message(message.channel, "Há três builds disponíveis para a Banshee Prime, especifique a sua escolha. \n !RESONANCE \n !SAVAGE \n !SOUNDQUAKE")
 
     if message.content.upper().startswith ("!RESONANCE"): 
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
    
     if message.content.upper().startswith ("!SAVAGE"):
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        await client.send_message(message.channel, "Build perfeita para espionagens, girando em torno do Savage Silence. \n https://i.imgur.com/5PfhHVj.png")
 
     if message.content.upper().startswith ("!SOUNDQUAKE"):
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        await client.send_message(message.channel, "Esta build preza pelo controle de grupo, com o máximo de alcance possível. \n https://i.imgur.com/DlvddpX.png")
      
     if message.content.upper() == "!BUILD CHROMA":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        await client.send_message(message.channel, "Build do Chroma utilizando a energia de gelo, para se tornar um ótimo tank. \n https://i.imgur.com/YVHw1Kx.jpg")
     
     if message.content.upper() == "!BUILD EMBER":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
 
     if message.content.upper() == "!BUILD EQUINOX":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
-    
+        await client.send_message(message.channel, "Há quatro builds disponíveis para o Equinox, especifique a sua escolha. \n !PM (Provoke e Maim/diurna) \n !PROVOKE (diurna) \n !REST \n !MM (Mend & Maim)")
+        
+        
+    if message.content.upper().startswith ("!PM"):
+        await client.send.message(message.channel, "Build focada em Provoke e Maim (Forma diurna). \n https://i.imgur.com/iPNM3p4.png")
+        
+    if message.content.upper().startswith ("!PROVOKE"):
+        await client.send.message(message.channel, "Build Focada em Provoke 80% (Forma diurna). \n https://i.imgur.com/qEukKAI.png")
+        
+    if message.content.upper().startswith ("!REST"):
+        await client.send.message(message.channel, "Build focada em Rest (Forma noturna). Perfeita para o farm de focus com o bônus stealth. \n https://i.imgur.com/zCki8WM.png")
+        
+    if message.content.upper().startswith ("!MM"):
+        await client.send.message(message.channel, "Build com foco na ultimate de Equinox, podendo causar uma grande quantidade de dano (forma diurna) ou uma grande quantidade de cura em área (forma diurna). \n https://i.imgur.com/n9NoJLA.png)        
+        
     if message.content.upper() == "!BUILD EXCALIBUR":
         await client.send_message(message.channel, "https://i.imgur.com/82slxkF.jpg")
 
@@ -1287,7 +1307,7 @@ async def on_message(message):
         await client.send_message(message.channel, "https://i.imgur.com/V8avqTe.jpg")
 
     if message.content.upper() == "!BUILD AKSTILETTO PRIME":
-        await client.send_message(message.channel, "https://i.imgur.com/T7YBjFQ.jpg")
+        await client.send_message(message.channel, "Build com foco em dano de status multiplicado pelo dano crítico. \n https://i.imgur.com/b5SBlP7.png")
 
     if message.content.upper() == "!BUILD DUAL TOXOCYST":
         await client.send_message(message.channel, "https://i.imgur.com/A29IkUX.jpg")
@@ -1295,35 +1315,92 @@ async def on_message(message):
     if message.content.upper() == "!BUILD SOMA PRIME":
         await client.send_message(message.channel, "https://i.imgur.com/0cCvb2v.png")
 
-    if message.content.upper() == "!BUILD 12":
+    if message.content.upper() == "!BUILD ARCA PLASMOR":
+        await client.send_message(message.channel, "Build para a Arca Plasmor focada em dano crítico. \n https://i.imgur.com/elTUR89.png")
+
+    if message.content.upper() == "!BUILD CARRIER":
+        await client.send_message(message.channel, "Há duas builds disponíveis para o Carrier, especifique a sua escolha. \n !VACUUM \n !STRIKER")
+
+    if message.content.upper().startswith ("!VACUUM"):
+        await client.send_message(message.channel, "Build focada em Vacuum, com prevenção de dano. \n https://i.imgur.com/VxCv7pW.png")
+
+    if message.content.upper().startswith ("!STRIKER"):
+        await client.send_message(message.channel, "Build focada em Striker, atacando primeiros inimigos em vista. \n https://i.imgur.com/IDnIUNg.png")
+
+    if message.content.upper() == "!BUILD AKLEX PRIME":
+        await client.send_message(message.channel, "Build focada em dano crítico e status. \n https://i.imgur.com/sWkAmJX.png")
+        
+    if message.content.upper() == "!BUILD ATTERAX":
+        await client.send_message(message.channel, "Há duas builds disponíveis para a Atterax, especifique a sua escolha. \n !ACESSÍVEL \n !MAIMING")
+                                  
+    if message.content.upper().startswith ("!ACESSÍVEL"):
+        await client.send_message(message.channel, "Build mais acessível para a Aterrax. \n https://i.imgur.com/kIB97JU.png")
+
+    if message.content.upper().startswith ("!MAIMING"):
+        await client.send_message(message.channel, "Build End Game para a Atterax, usando o mod Maiming Strike. \n https://i.imgur.com/wQtsrx8.png")                                  
+        
+    if message.content.upper() == "!BUILD BALLISTICA PRIME":
+        await client.send_message(message.channel, "Build com grande dano de status e crítico para a Ballistica. \n https://i.imgur.com/1oFkLeR.png")
+        
+    if message.content.upper() == "!BUILD BAZA":
+        await client.send_message(message.channel, "Build crítica para a Baza, com procs de corte combinado com do debuff do proc de Viral.")
+        
+    if message.content.upper() == "!BUILD BOLTOR PRIME":
+        await client.send_message(message.channel, "Build de status para a Boltor Prime. O thermite rounds pode ser trocado com o Vigilant Armaments, mas precisará de mais uma forma. \n https://i.imgur.com/jb0gt47.png")
+        
+    if message.content.upper() == "!BUILD BRATON PRIME":
+        await client.send_message(message.channel, "Build de Status para a Braton Prime. \n https://i.imgur.com/Xt6jbqg.png")
+                                  
+    if message.content.upper() == "!BUILD BROKEN WAR":
+        await client.send_message(message.channel, "Build para a Broken War com bastante velocidade de ataque e status. \n https://i.imgur.com/Y8Vy6lG.png)
+        
+    if message.content.upper() == "!BUILD EUPHONA":
+        await client.send_message(message.channel, "Há duas builds disponíveis para a Euponha, especifique a sua escolha. \n !EUPHONA EIDOLON \n !EUPHONA CRÍTICO")
+                                  
+    if message.content.upper().startswith ("!EUPHONA EIDOLON"):
+        await client.send_message(message.channel, "Como o Teralyst é fraco para radiacao, e a Euphona é muito forte, estA build dá one hit a um membro de um teralyst com o buff de Vex Armor do Chroma. \n https://i.imgur.com/85u7dzO.png")
+
+    if message.content.upper().startswith ("!EUPHONA CRÍTICO"):
+        await client.send_message(message.channel, "Build para a Euphona focada em dano crítico combinado com o dano corrosivo. \n https://i.imgur.com/GJT0yFV.png")                                  
+        
+    if message.content.upper() == "!BUILD CERNOS PRIME":
+        await client.send_message(message.channel, "Build de crítico e viral para o Cernos Prime. \n https://i.imgur.com/Gn2kvnJ.png")
+        
+    if message.content.upper() == "!BUILD DREAD":
+        await client.send_message(message.channel, "Há duas builds disponíveis para o Dread, especifique a sua escolha. \n !DREAD CRÍTICO \n !DREAD STATUS")
+        
+    if message.content.upper().startswith ("!DREAD CRÍTICO"):
+        await client.send_message(message.channel, "Build de dano crítico para o Dread. \n https://i.imgur.com/HkUZGAn.png")
+        
+    if message.content.upper().startswith ("!DREAD STATUS"):
+        await client.send_message(message.channel, "Build de Status para o Dread. \n https://i.imgur.com/3e84wvJ.png")  
+                                  
+    if message.content.upper() == "!DUAL CLEAVERS":
+        await client.send_message(message.channel, "Build Critico-Status para as Prisma Dual Cleavers. Em vez do riven, pode ser usado o Voltaic Strike. Só precisará de uma forma se quiser pôr algo em vez do Life Strike. \n https://i.imgur.com/dCfAAlD.png")
+
+    if message.content.upper() == "!SWEEPER PRIME":
+        await client.send_message(message.channel, "Build para a arma padrão do Carrier Prime. \n https://i.imgur.com/XAbSPev.png")
+
+    if message.content.upper() == "!13":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
 
-    if message.content.upper() == "!BUILD 13":
+    if message.content.upper() == "!14":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
 
-    if message.content.upper() == "!BUILD 14":
+    if message.content.upper() == "!15":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
 
-    if message.content.upper() == "!BUILD 15":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
-
-    if message.content.upper() == "!BUILD 16":
+    if message.content.upper() == "!16":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
         
-    if message.content.upper() == "!BUILD 17":
+    if message.content.upper() == "!17":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
         
-    if message.content.upper() == "!BUILD 18":
+    if message.content.upper() == "!18":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
         
-    if message.content.upper() == "!BUILD 19":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
-        
-    if message.content.upper() == "!BUILD 20":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
-        
-    if message.content.upper() == "!BUILD 21":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+    if message.content.upper() == "!19":
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")                                  
    
 
     
