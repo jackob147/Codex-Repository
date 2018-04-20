@@ -1162,7 +1162,7 @@ async def on_message(message):
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
  
     if message.content.upper() == "!BUILD BANSHEE":
-        await client.send_message(message.channel, "Há três builds disponíveis para a Banshee Prime, especifique a sua escolha. \n !RESONANCE \n !SAVAGE \n !SOUNDQUAKE")
+        await client.send_message(message.channel, "Há duas builds disponíveis para a Banshee Prime, especifique a sua escolha. \n !SAVAGE \n !SOUNDQUAKE")
 
     if message.content.upper().startswith ("!RESONANCE"): 
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
@@ -1358,7 +1358,7 @@ async def on_message(message):
         await client.send_message(message.channel, "Há duas builds disponíveis para a Euponha, especifique a sua escolha. \n !EUPHONA EIDOLON \n !EUPHONA CRÍTICO")
                                   
     if message.content.upper().startswith ("!EUPHONA EIDOLON"):
-        await client.send_message(message.channel, "Como o Teralyst é fraco para radiacao, e a Euphona é muito forte, estA build dá one hit a um membro de um teralyst com o buff de Vex Armor do Chroma. \n https://i.imgur.com/85u7dzO.png")
+        await client.send_message(message.channel, "Como o Teralyst é fraco para radiacao, e a Euphona é muito forte, esta build dá one hit a um membro de um teralyst com o buff de Vex Armor do Chroma. \n https://i.imgur.com/85u7dzO.png")
 
     if message.content.upper().startswith ("!EUPHONA CRÍTICO"):
         await client.send_message(message.channel, "Build para a Euphona focada em dano crítico combinado com o dano corrosivo. \n https://i.imgur.com/GJT0yFV.png")                                  
@@ -1375,10 +1375,10 @@ async def on_message(message):
     if message.content.upper().startswith ("!DREAD STATUS"):
         await client.send_message(message.channel, "Build de Status para o Dread. \n https://i.imgur.com/3e84wvJ.png")  
                                   
-    if message.content.upper() == "!DUAL CLEAVERS":
+    if message.content.upper() == "!BUILD DUAL CLEAVERS":
         await client.send_message(message.channel, "Build Critico-Status para as Prisma Dual Cleavers. Em vez do riven, pode ser usado o Voltaic Strike. Só precisará de uma forma se quiser pôr algo em vez do Life Strike. \n https://i.imgur.com/dCfAAlD.png")
 
-    if message.content.upper() == "!SWEEPER PRIME":
+    if message.content.upper() == "!BUILD SWEEPER PRIME":
         await client.send_message(message.channel, "Build para a arma padrão do Carrier Prime. \n https://i.imgur.com/XAbSPev.png")
 
     if message.content.upper() == "!13":
