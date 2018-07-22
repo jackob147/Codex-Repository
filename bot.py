@@ -1369,7 +1369,7 @@ async def on_message(message):
         await client.send_message(message.channel, "Build com grande dano de status e crítico para a Ballistica. \n https://i.imgur.com/1oFkLeR.png")
         
     if message.content.upper() == "!BUILD BAZA":
-        await client.send_message(message.channel, "Build crítica para a Baza, com procs de corte combinado com do debuff do proc de Viral.")
+        await client.send_message(message.channel, "Build crítica para a Baza, com procs de corte combinado com do debuff do proc de Viral. \n https://i.imgur.com/NNmoz0w.png")
         
     if message.content.upper() == "!BUILD BOLTOR PRIME":
         await client.send_message(message.channel, "Build de status para a Boltor Prime. O thermite rounds pode ser trocado com o Vigilant Armaments, mas precisará de mais uma forma. \n https://i.imgur.com/jb0gt47.png")
