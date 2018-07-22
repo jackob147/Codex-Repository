@@ -1293,7 +1293,7 @@ async def on_message(message):
         await client.send_message(message.channel, "Build da Mirage com foco no dano causado por seus clones e os buffs da terceira habilidade. \n https://i.imgur.com/lTwrTJh.jpg")  
 
     if message.content.upper().startswith ("!CEGUEIRA"):
-        await client.send_message(message.channel, "Build para jogadores que preferem um papel de suporte, mantendo os inimigos sob o efeito de cegueira da ultimate ou segunda habilidade. \n https://i.imgur.com/f7tdDL5.jpg. \n https://i.imgur.com/XoThyC4.jpg") 
+        await client.send_message(message.channel, "Build para jogadores que preferem um papel de suporte, mantendo os inimigos sob o efeito de cegueira da ultimate ou segunda habilidade. \n https://i.imgur.com/f7tdDL5.jpg") 
 
     if message.content.upper() == "!BUILD NEZHA":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
@@ -1329,10 +1329,11 @@ async def on_message(message):
         await client.send_message(message.channel, "Build do Rhino com o foco na segunda habilidade, prevenindo uma grande quantidade de dano. \n https://i.imgur.com/dzbtaxc.jpg")
 
     if message.content.upper().startswith ("!SUP"):
-        await client.send_message(message.channel, "Build do Rhino para quem prefere fazer um papel de suporte, concedendo alto dano para seu esquadrão com a terceira habilidade. \n https://i.imgur.com/5JI5rZv.jpg")        
+        await client.send_message(message.channel, "Build do Rhino para quem prefere fazer um papel de suporte, concedendo alto dano para seu esquadrão com a terceira habilidade. \n https://i.imgur.com/5JI5rZv.jpg")
+
+    if message.content.upper().startswith ("!SUP"):
+        await client.send_message(message.channel, "Build do Rhino para jogadores que prezam por controle sobre os inimigos, tendo a quarta habilidade como ferramenta principal. \n https://i.imgur.com/ZArEh60.jpg")        
         
-    if message.content.upper().startswith ("!STOMP"):
-        await client.send.message(message.channel, "Build do Rhino para jogadores que prezam por controle sobre os inimigos, tendo a quarta habilidade como ferramenta principal. \n https://i.imgur.com/ZArEh60.jpg")
 
 
     if message.content.upper() == "!BUILD SARYN":
