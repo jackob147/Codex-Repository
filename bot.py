@@ -1238,9 +1238,8 @@ async def on_message(message):
     if message.content.upper().startswith ("!VERSÁTIL"):
         await client.send_message(message.channel, "Build para missões em geral. \n https://i.imgur.com/76PfFpS.jpg")
 
-        
     if message.content.upper().startswith ("!FARM"):
-        await client.send.message(message.channel, "Build para farm de recursos com o mod de Ampliação Pilfering Swarm da quarta habilidade. \n https://i.imgur.com/DXcfvrp.jpg")
+        await client.send_message(message.channel, "Build para farm de recursos com o mod de Ampliação Pilfering Swarm da quarta habilidade. \n https://i.imgur.com/DXcfvrp.jpg")        
 
     if message.content.upper() == "!BUILD INAROS":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
