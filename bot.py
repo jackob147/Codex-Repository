@@ -1142,14 +1142,23 @@ async def on_message(message):
     if message.content.upper() == "!HUB":
         await client.send_message(message.channel, "https://hub.warframestat.us/timer")
         
-    if message.content.upper() == "!BUILD TRINITY ENERGY VAMPIRE":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+    if message.content.upper() == "!TRINITY":
+        await client.send_message(message.channel, "Há três builds disponíveis para a Trinity, especifique a sua escolha. \n !EV (Energy Vampire) \n !BLESS (Blessing) \n !NUKE (Dano)")
+        
+    if message.content.upper().startswith ("!EV"):
+        await client.send_message(message.channel, "Build focada na restauração de energia com a segunda skill. \n https://i.imgur.com/qTL8SRR.png")
 
-    if message.content.upper() == "!BUILD TRINITY BLESSING":
+    if message.content.upper().startswith ("!BLESS"):
+        await client.send_message(message.channel, "Build focada na proteção do esquadrão com a ultimate Blessing. \n https://i.imgur.com/SZ5wzlP.png")
+        
+    if message.content.upper().startswith ("!NUKE"):
+        await client.send_message(message.channel, "Build feita para matar inimigos usando o proc de radiação de suas Castanas + Link. \n https://i.imgur.com/EsB5hSx.png")        
+
+    if message.content.upper() == "oiqnweioqnasd":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181141340225537/TRINITY_BLESSING.png")
 
     if message.content.upper() == "!BUILD ASH PRIME":
-        await client.send_message(message.channel, "Há duas builds disponíveis para o Ash Prime, especifique a sua escolha. \n !Blade \n !Smoke")
+        await client.send_message(message.channel, "Há duas builds disponíveis para o Ash Prime, especifique a sua escolha. \n !BLADE \n !SMOKE")
         
     if message.content.upper().startswith ("!SMOKE"):
         await client.send_message(message.channel, "Build focada em Duração. Excelente para o farm de Kuva. \n https://i.imgur.com/iPTWEHX.png")
@@ -1208,7 +1217,13 @@ async def on_message(message):
         await client.send_message(message.channel, "https://i.imgur.com/82slxkF.jpg")
 
     if message.content.upper() == "!BUILD FROST":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        await client.send_message(message.channel, "Há duas builds disponíveis para o Frost, especifique a sua escolha. \n !GLOBE (Snow Globe) \n !AVALANCHE")
+        
+    if message.content.upper().startswith ("!GLOBE"):
+        await client.send.message(message.channel, "Build focada em defesa com o Globo do Frost. \n https://i.imgur.com/fqwjycH.png")
+        
+    if message.content.upper().startswith ("!AVALANCHE"):
+        await client.send.message(message.channel, "Build Focada na habilidade Avalanche e sua proteção fornecida pelo mod de Ampliação. \n https://i.imgur.com/qOo2APE.png")        
     
     if message.content.upper() == "!BUILD GARA":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
