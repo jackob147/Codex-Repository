@@ -1224,6 +1224,8 @@ async def on_message(message):
         
     if message.content.upper().startswith ("!AVALANCHE"):
         await client.send.message(message.channel, "Build Focada na habilidade Avalanche e sua proteção fornecida pelo mod de Ampliação. \n https://i.imgur.com/qOo2APE.png")        
+        
+        
     
     if message.content.upper() == "!BUILD GARA":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
