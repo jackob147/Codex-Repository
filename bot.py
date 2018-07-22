@@ -1217,21 +1217,19 @@ async def on_message(message):
         await client.send_message(message.channel, "https://i.imgur.com/82slxkF.jpg")
 
     if message.content.upper() == "!BUILD FROST":
-        await client.send_message(message.channel, "Há duas builds disponíveis para o Frost, especifique a sua escolha. \n !GLOBE (Snow Globe) \n !AVALANCHE")
-        
-    if message.content.upper().startswith ("!GLOBE"):
-        await client.send.message(message.channel, "Build focada em defesa com o Globo do Frost. \n https://i.imgur.com/fqwjycH.png")
-        
-    if message.content.upper().startswith ("!AVALANCHE"):
-        await client.send.message(message.channel, "Build Focada na habilidade Avalanche e sua proteção fornecida pelo mod de Ampliação. \n https://i.imgur.com/qOo2APE.png")        
-        
-        
-    
+        await client.send_message(message.channel, "Build focada em defesa com o Globo do Frost. \n https://i.imgur.com/fqwjycH.png")
+                               
     if message.content.upper() == "!BUILD GARA":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
 
     if message.content.upper() == "!BUILD HARROW":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        await client.send_message(message.channel, "Há duas builds disponíveis para o Harrow, especifique a sua escolha. \n !GERAL \n !EIDOLON")
+
+    if message.content.upper().startswith ("!GERAL"):
+        await client.send_message(message.channel, "Build feita para missões diversas do Sistema. \n https://i.imgur.com/F0whvMu.jpg")        
+        
+    if message.content.upper().startswith ("!EIDOLON"):
+        await client.send.message(message.channel, "Build ideal para Caçadas de Eidolons. \n https://i.imgur.com/XoThyC4.jpg")
 
     if message.content.upper() == "!BUILD HYDROID":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
@@ -1252,7 +1250,13 @@ async def on_message(message):
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
    
     if message.content.upper() == "!BUILD LOKI":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        await client.send_message(message.channel, "Há duas builds disponíveis para o Loki, especifique a sua escolha. \n !SPY \n !DISARM")
+
+    if message.content.upper().startswith ("!SPY"):
+        await client.send.message(message.channel, "Build para missões de espionagem, prezando por uma abordagem mais sutil. \n https://i.imgur.com/2A4zwvC.jpg")
+        
+    if message.content.upper().startswith ("!DISARM"):
+        await client.send.message(message.channel, "Build com foco na quarta habilidade e seu controle em uma área enorme. \n https://i.imgur.com/81H3Vqq.jpg")
 
     if message.content.upper() == "!BUILD MAG":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
@@ -1261,7 +1265,7 @@ async def on_message(message):
         await client.send_message(message.channel, "https://i.imgur.com/2ecRuyg.jpg")
 
     if message.content.upper() == "!BUILD NEKROS":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        await client.send_message(message.channel, "Build projetada para manter sempre a terceira habilidade ativa usando o mod de Ampliação Despoil e alta eficiência com um raio gigantesco. \n https://i.imgur.com/0BiX2nK.jpg")
 
     if message.content.upper() == "!BUILD MIRAGE":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
@@ -1273,13 +1277,16 @@ async def on_message(message):
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
 
     if message.content.upper() == "!BUILD NOVA":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        await client.send_message(message.channel, "Há três build disponíveis para o warframe Nova, especifique a sua escolha. \n !SLOW \n !SPEED \n !WISP")
 
-    if message.content.upper() == "!SLOW":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+    if message.content.upper().startswith ("!SLOW"):
+        await client.send_message(message.channel, "Build que faz com que os inimigos fiquem lentos e recebam uma grande quantidade de dano sob o efeito da quarta habilidade. \n https://i.imgur.com/97jVZMi.jpg")
 
-    if message.content.upper() == "!SPEED":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+    if message.content.upper().startswith ("!SPEED"):
+        await client.send_message(message.channel, "Ao retirar a força de poder, a quarta habilidade da Nova faz com que os inimigos movam-se mais rapidamente, acelerando o ritmo da missão. \n https://i.imgur.com/aadMS6z.jpg")
+        
+    if message.content.upper().startswith ("!WISP"):
+        await client.send_message(message.channel, "Build com foco no farm de Cetus Wisp nas planícies, prezando por uma boa movimentação em campo aberto. \n https://i.imgur.com/qSVXHhh.jpg")
 
     if message.content.upper() == "!BUILD NYX":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
