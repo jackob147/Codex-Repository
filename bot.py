@@ -1226,10 +1226,11 @@ async def on_message(message):
         await client.send_message(message.channel, "Há duas builds disponíveis para o Harrow, especifique a sua escolha. \n !GERAL \n !EIDOLON")
 
     if message.content.upper().startswith ("!GERAL"):
-        await client.send_message(message.channel, "Build feita para missões diversas do Sistema. \n https://i.imgur.com/F0whvMu.jpg")        
-        
+        await client.send_message(message.channel, "Build feita para missões diversas do Sistema. \n https://i.imgur.com/F0whvMu.jpg")  
+
     if message.content.upper().startswith ("!EIDOLON"):
-        await client.send.message(message.channel, "Build ideal para Caçadas de Eidolons. \n https://i.imgur.com/XoThyC4.jpg")
+        await client.send_message(message.channel, "Build ideal para Caçadas de Eidolons. \n https://i.imgur.com/XoThyC4.jpg")      
+        
 
     if message.content.upper() == "!BUILD HYDROID":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
