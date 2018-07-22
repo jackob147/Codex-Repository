@@ -1317,7 +1317,7 @@ async def on_message(message):
         await client.send_message(message.channel, "Build da Nyx com o equilíbrio perfeito entre todas as suas habilidades. \n https://i.imgur.com/FeVJzdA.jpg")
 
     if message.content.upper() == "!BUILD OCTAVIA":
-        await client.send_message(message.channel, "Build da Octavia que causará alto dano com o Mallet e ainda o manterá invisível por um longo período. \n https://i.imgur.com/wgCuPNa.jpg)
+        await client.send_message(message.channel, "Build da Octavia que causará alto dano com o Mallet e ainda o manterá invisível por um longo período. \n https://i.imgur.com/wgCuPNa.jpg")
 
     if message.content.upper() == "!BUILD OBERON":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
