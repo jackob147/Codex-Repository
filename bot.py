@@ -1247,6 +1247,12 @@ async def on_message(message):
     if message.content.upper() == "!BUILD IVARA":
         await client.send_message(message.channel, "Há três build disponíveis para a Ivara, especifique a sua escolha. \n !ARTEMIS \n !INFILTRATE \n !PROWL")
 
+    if message.content.upper() == "!BUILD ARTEMIS":
+        await client.send_message(message.channel, "Build para o arco Artemis da Ivara com um alto dano crítico que combará com o debuff do efeito viral. \n https://i.imgur.com/9ElsJMO.jpg")
+
+    if message.content.upper() == "!BUILD ARTEMIS BOW":
+        await client.send_message(message.channel, "Build para o arco Artemis da Ivara com um alto dano crítico que combará com o debuff do efeito viral. \n https://i.imgur.com/9ElsJMO.jpg")
+
     if message.content.upper().startswith ("!INFILTRATE"):
         await client.send_message(message.channel, "Build perfeita para missões de espionagens, onde a Ampliação Infiltrate da terceira habilidade irá te ajudar muito. \n https://i.imgur.com/eswRf7t.jpg")  
 
@@ -1331,42 +1337,73 @@ async def on_message(message):
     if message.content.upper().startswith ("!SUP"):
         await client.send_message(message.channel, "Build do Rhino para quem prefere fazer um papel de suporte, concedendo alto dano para seu esquadrão com a terceira habilidade. \n https://i.imgur.com/5JI5rZv.jpg")
 
-    if message.content.upper().startswith ("!SUP"):
+    if message.content.upper().startswith ("!STOMP"):
         await client.send_message(message.channel, "Build do Rhino para jogadores que prezam por controle sobre os inimigos, tendo a quarta habilidade como ferramenta principal. \n https://i.imgur.com/ZArEh60.jpg")        
         
 
 
     if message.content.upper() == "!BUILD SARYN":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        await client.send_message(message.channel, "Build da Saryn com alto dano em sua primeira habilidade, contando ainda com a finalização da ultimate e o buff da terceira habilidade. \n https://i.imgur.com/j9WJ6cD.jpg?1")
 
     if message.content.upper() == "!BUILD TITANIA":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        await client.send_message(message.channel, "Build da Titania que melhorará os buffs de sua segunda habilidade e aumentará sua força e sua eficiência na quarta habilidade. \n https://i.imgur.com/EPJJG8l.jpg")
+
+    if message.content.upper() == "!BUILD PIXIA":
+        await client.send_message(message.channel, "Build para as pistolas Exalted da Titania que causará alto dano e manterá os inimigos no chão com o proc de explosão. \n https://i.imgur.com/cAZMb6A.jpg")
+
+    if message.content.upper() == "!BUILD DEX PIXIA":
+        await client.send_message(message.channel, "Build para as pistolas Exalted da Titania que causará alto dano e manterá os inimigos no chão com o proc de explosão. \n https://i.imgur.com/cAZMb6A.jpg")
+
+    if message.content.upper() == "!BUILD DIWATA":
+        await client.send_message(message.channel, "Build para as Lâminas Exalted da Titania com alto dano corrosivo. \n https://i.imgur.com/5tTRhL2.jpg")
 
     if message.content.upper() == "!BUILD VALKYR":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        await client.send_message(message.channel, "Build para a Valkyr com foco na quarta habilidade e o buff fornecido na segunda habilidade. \n https://i.imgur.com/0CHywSd.jpg")
+
+    if message.content.upper() == "!BUILD GARRAS VALKYR":
+        await client.send_message(message.channel, "Build para as Garras Exalted da Valkyr com uma enorme quantidade de dano crítico e corrosivo. \n https://i.imgur.com/8bYp1Ae.jpg")
+
+    if message.content.upper() == "!BUILD GARRAS EXALTED":
+        await client.send_message(message.channel, "Build para as Garras Exalted da Valkyr com uma enorme quantidade de dano crítico e corrosivo. \n https://i.imgur.com/8bYp1Ae.jpg")
+
+    if message.content.upper() == "!BUILD GARRAS DA VALKYR":
+        await client.send_message(message.channel, "Build para as Garras Exalted da Valkyr com uma enorme quantidade de dano crítico e corrosivo. \n https://i.imgur.com/8bYp1Ae.jpg")
 
     if message.content.upper() == "!BUILD VAUBAN":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
-        
-    if message.content.upper() == "!BASTILLE":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
-        
-    if message.content.upper() == "!VORTEX":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        await client.send_message(message.channel, "Há três builds disponíveis para o Vauban, especifique a sua escolha. \n !BASTILLE \n !VORTEX \n !DANO")
+
+    if message.content.upper().startswith ("!BASTILLE"):
+        await client.send_message(message.channel, "Build do Vauban para controle em área com a terceira habilidade Bastille. \n https://i.imgur.com/UrJehBV.jpg")  
+
+    if message.content.upper().startswith ("!VORTEX"):
+        await client.send_message(message.channel, "Build do Vauban que manterá a quarta habilidade sempre ativa, graças ao mod de Ampliação Perpetual Vortex. \n https://i.imgur.com/qPNUPoI.jpg")
+
+    if message.content.upper().startswith ("!DANO"):
+        await client.send_message(message.channel, "Build do Vauban com foco em dano, seja em sua primeira habilidade ou no dano causado em inimigos puxados pelo Vortex. \n hhttps://i.imgur.com/w2Ww1Ks.jpg")  
+       
         
     if message.content.upper() == "!BUILD VOLT":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
         
     if message.content.upper() == "!BUILD WUKONG":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+
+    if message.content.upper() == "!BUILD IRON STAFF":
+        await client.send_message(message.channel, "Build para o Bastão Exalted do Wukong com alto dano corrosivo multiplicado pelo Condition Overload e alto dano crítico")
         
     if message.content.upper() == "!BUILD ZEPHYR":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        await client.send_message(message.channel, "Há duas build disponíveis para a Zephyr, especifique a sua escolha. \n !ESCUDO \n !TORNADO")
+
+    if message.content.upper().startswith ("!ESCUDO"):
+        await client.send_message(message.channel, "Build da Zephyr focada no desvio de projéteis inimigos pela terceira habilidade. \n https://i.imgur.com/QwCX8bY.jpg")  
+
+    if message.content.upper().startswith ("!TORNADO"):
+        await client.send_message(message.channel, "Build de alto dano que funciona com um combo da quarta habilidade com o buff da segunda habilidade sobre ela. \n https://i.imgur.com/LMoVJc9.jpg")
         
     if message.content.upper() == "!BUILD":
-        await client.send_message(message.channel, "Por favor, especifique o Warframe ou arma. Perceba que algumas builds ainda estão em desenvolvimento, então irá notar algumas builds de Trinity onde não deveria haver.")
+        await client.send_message(message.channel, "Por favor, especifique o Warframe ou arma. Perceba que algumas builds de armas ainda não foram adicionadas.")
 
-    if message.content.upper() == "!BUILD NIKANA PRIME":
+    if message.content.upper() == "!BUILD NIKANA":
         await client.send_message(message.channel, "https://i.imgur.com/V8avqTe.jpg")
 
     if message.content.upper() == "!BUILD AKSTILETTO PRIME":
@@ -1375,7 +1412,7 @@ async def on_message(message):
     if message.content.upper() == "!BUILD DUAL TOXOCYST":
         await client.send_message(message.channel, "https://i.imgur.com/A29IkUX.jpg")
 
-    if message.content.upper() == "!BUILD SOMA PRIME":
+    if message.content.upper() == "!BUILD SOMA":
         await client.send_message(message.channel, "https://i.imgur.com/0cCvb2v.png")
 
     if message.content.upper() == "!BUILD ARCA PLASMOR":
@@ -1444,8 +1481,8 @@ async def on_message(message):
     if message.content.upper() == "!BUILD SWEEPER PRIME":
         await client.send_message(message.channel, "Build para a arma padrão do Carrier Prime. \n https://i.imgur.com/XAbSPev.png")
 
-    if message.content.upper() == "!13":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+    if message.content.upper() == "!BUILD KHORA":
+        await client.send_message(message.channel, "Build da Warframe Khora com um grande controle fornecido por sua segunda e quarta habilidade. \n https://i.imgur.com/5XsxkGy.png")
 
     if message.content.upper() == "!14":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
