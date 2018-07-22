@@ -1142,7 +1142,7 @@ async def on_message(message):
     if message.content.upper() == "!HUB":
         await client.send_message(message.channel, "https://hub.warframestat.us/timer")
         
-    if message.content.upper() == "!TRINITY":
+    if message.content.upper() == "!BUILD TRINITY":
         await client.send_message(message.channel, "Há três builds disponíveis para a Trinity, especifique a sua escolha. \n !EV (Energy Vampire) \n !BLESS (Blessing) \n !NUKE (Dano)")
         
     if message.content.upper().startswith ("!EV"):
@@ -1157,7 +1157,7 @@ async def on_message(message):
     if message.content.upper() == "oiqnweioqnasd":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181141340225537/TRINITY_BLESSING.png")
 
-    if message.content.upper() == "!BUILD ASH PRIME":
+    if message.content.upper() == "!BUILD ASH":
         await client.send_message(message.channel, "Há duas builds disponíveis para o Ash Prime, especifique a sua escolha. \n !BLADE \n !SMOKE")
         
     if message.content.upper().startswith ("!SMOKE"):
