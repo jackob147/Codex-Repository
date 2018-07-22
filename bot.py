@@ -78,13 +78,13 @@ async def on_message(message):
         await client.send_message(message.channel, "Coordenadas Nav são recursos de navegação conseguidos em Containers de armazenamento em todos as missões")
 
     if message.content.upper() == "!SYNTHULA":
-        await client.send_message(message.channel, "Synthula e um recurso especial conseguido em Missões de Sobrevivência, Defesa e Interceptação em Mercurio, Vênus, Terra, Marte, Phobos, Ceres, Void")
+        await client.send_message(message.channel, "Synthula é um recurso especial conseguido em Missões de Sobrevivência, Defesa e Interceptação em Mercurio, Vênus, Terra, Marte, Phobos, Ceres, Void")
 
     if message.content.upper() == "!FERRITE":
-        await client.send_message(message.channel, "Ferrite é um recurso comum conseguido em Mercurio, Terra, Netuno, Void")
+        await client.send_message(message.channel, "Ferrite é um recurso comum conseguido em Mercúrio, Terra, Netuno, Void")
 
     if message.content.upper() == "!KUVA":
-        await client.send_message(message.channel, "Kuva e um recurso especial conseguido em Cifões e Inundações Kuva")
+        await client.send_message(message.channel, "Kuva é um recurso especial conseguido em Inundações Kuva, Sobrevivência em Fortaleza Kuva e Incursão")
 
     if message.content.upper() == "!CRIÓTICO":
         await client.send_message(message.channel, "Criótico é um recurso incomum conseguido em Missões de escavação")
@@ -1242,19 +1242,31 @@ async def on_message(message):
         await client.send_message(message.channel, "Build para farm de recursos com o mod de Ampliação Pilfering Swarm da quarta habilidade. \n https://i.imgur.com/DXcfvrp.jpg")        
 
     if message.content.upper() == "!BUILD INAROS":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        await client.send_message(message.channel, "Build do Inaros para tankar bastante e com um alto controle de grupo. \n https://i.imgur.com/h02Wzr8.jpg")
 
     if message.content.upper() == "!BUILD IVARA":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        await client.send_message(message.channel, "Há três build disponíveis para a Ivara, especifique a sua escolha. \n !ARTEMIS \n !INFILTRATE \n !PROWL")
+
+    if message.content.upper().startswith ("!INFILTRATE"):
+        await client.send_message(message.channel, "Build perfeita para missões de espionagens, onde a Ampliação Infiltrate da terceira habilidade irá te ajudar muito. \n https://i.imgur.com/eswRf7t.jpg")  
+
+    if message.content.upper().startswith ("!ARTEMIS"):
+        await client.send_message(message.channel, "Build que te permitirá causar uma boa quantidade de dano com o Artemis Bow e com um baixo custo de energia por segundo/tiro. \n https://i.imgur.com/IF8xfH7.jpg")
+
+    if message.content.upper().startswith ("!PROWL"):
+        await client.send_message(message.channel, "Build excelente para farm com a terceira habilidade e uma abordagem mais stealth. \n https://i.imgur.com/AeJ1ryp.jpg")
+ 
 
     if message.content.upper() == "!BUILD LIMBO":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        await client.send_message(message.channel, "Há duas builds disponíveis para o Limbo, especifique a sua escolha. \n !DURAÇÃO \n !ALCANCE")
 
-    if message.content.upper() == "!CONTROLE":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+    if message.content.upper().startswith ("!ALCANCE"):
+        await client.send_message(message.channel, "Build do Limbo para controle em grande escala. \n https://i.imgur.com/Yu3PWif.jpg")
 
-    if message.content.upper() == "!DEFESA":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+    if message.content.upper().startswith ("!DURAÇÃO"):
+        await client.send_message(message.channel, "Build do Limbo para missões onde o alcance não é muito indicado (como em defesas). \n https://i.imgur.com/VIpMS6C.jpg")
+
+
    
     if message.content.upper() == "!BUILD LOKI":
         await client.send_message(message.channel, "Há duas builds disponíveis para o Loki, especifique a sua escolha. \n !SPY \n !DISARM")
@@ -1266,16 +1278,22 @@ async def on_message(message):
         await client.send.message(message.channel, "Build com foco na quarta habilidade e seu controle em uma área enorme. \n https://i.imgur.com/81H3Vqq.jpg")
 
     if message.content.upper() == "!BUILD MAG":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        await client.send_message(message.channel, "Build da Mag com o equilíbrio perfeito entre todas as habilidades, contando com o mod de Ampliação Counter Pulse para manter o controle sobre os inimigos. \n https://i.imgur.com/zX7E3pf.jpg")
 
     if message.content.upper() == "!BUILD MESA":
-        await client.send_message(message.channel, "https://i.imgur.com/2ecRuyg.jpg")
+        await client.send_message(message.channel, "Build da Mesa que mantém um baixo custo na quarta habilidade sem tirar a duração necessária da terceira habilidade. \n https://i.imgur.com/2ecRuyg.jpg")
 
     if message.content.upper() == "!BUILD NEKROS":
         await client.send_message(message.channel, "Build projetada para manter sempre a terceira habilidade ativa usando o mod de Ampliação Despoil e alta eficiência com um raio gigantesco. \n https://i.imgur.com/0BiX2nK.jpg")
 
     if message.content.upper() == "!BUILD MIRAGE":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        await client.send_message(message.channel, "Há duas builds disponíveis para a Mirage, especifique a sua escolha. \n !CLONES \n !CEGUEIRA")
+
+    if message.content.upper().startswith ("!CLONES"):
+        await client.send_message(message.channel, "Build da Mirage com foco no dano causado por seus clones e os buffs da terceira habilidade. \n https://i.imgur.com/lTwrTJh.jpg")  
+
+    if message.content.upper().startswith ("!CEGUEIRA"):
+        await client.send_message(message.channel, "Build para jogadores que preferem um papel de suporte, mantendo os inimigos sob o efeito de cegueira da ultimate ou segunda habilidade. \n https://i.imgur.com/f7tdDL5.jpg. \n https://i.imgur.com/XoThyC4.jpg") 
 
     if message.content.upper() == "!BUILD NEZHA":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
@@ -1296,22 +1314,26 @@ async def on_message(message):
         await client.send_message(message.channel, "Build com foco no farm de Cetus Wisp nas planícies, prezando por uma boa movimentação em campo aberto. \n https://i.imgur.com/qSVXHhh.jpg")
 
     if message.content.upper() == "!BUILD NYX":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        await client.send_message(message.channel, "Build da Nyx com o equilíbrio perfeito entre todas as suas habilidades. \n https://i.imgur.com/FeVJzdA.jpg")
 
     if message.content.upper() == "!BUILD OCTAVIA":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        await client.send_message(message.channel, "Build da Octavia que causará alto dano com o Mallet e ainda o manterá invisível por um longo período. \n https://i.imgur.com/wgCuPNa.jpg)
 
     if message.content.upper() == "!BUILD OBERON":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
 
     if message.content.upper() == "!BUILD RHINO":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        await client.send_message(message.channel, "Há três build disponíveis para o Rhino, especifique a sua escolha. \n !TANK \n !SUP \n !STOMP")
 
-    if message.content.upper() == "!IRON SKIN":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+    if message.content.upper().startswith ("!TANK"):
+        await client.send_message(message.channel, "Build do Rhino com o foco na segunda habilidade, prevenindo uma grande quantidade de dano. \n https://i.imgur.com/dzbtaxc.jpg")
 
-    if message.content.upper() == "!STOMP":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+    if message.content.upper().startswith ("!SUP"):
+        await client.send_message(message.channel, "Build do Rhino para quem prefere fazer um papel de suporte, concedendo alto dano para seu esquadrão com a terceira habilidade. \n https://i.imgur.com/5JI5rZv.jpg")        
+        
+    if message.content.upper().startswith ("!STOMP"):
+        await client.send.message(message.channel, "Build do Rhino para jogadores que prezam por controle sobre os inimigos, tendo a quarta habilidade como ferramenta principal. \n https://i.imgur.com/ZArEh60.jpg")
+
 
     if message.content.upper() == "!BUILD SARYN":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
