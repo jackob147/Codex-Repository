@@ -1184,7 +1184,7 @@ async def on_message(message):
         await client.send_message(message.channel, "Build do Chroma utilizando a energia de gelo, para se tornar um ótimo tank. \n https://i.imgur.com/YVHw1Kx.jpg")
     
     if message.content.upper() == "!BUILD EMBER":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        await client.send_message(message.channel, "Build que manterá sua quarta habilidade sempre ativa e com um baixo custo para o seu aumento de dano da segunda habilidade. \n https://i.imgur.com/xldp709.jpg")
 
     if message.content.upper() == "!BUILD EQUINOX":
         await client.send_message(message.channel, "Há quatro builds disponíveis para o Equinox, especifique a sua escolha. \n !PM (Provoke e Maim/diurna) \n !PROVOKE (diurna) \n !REST \n !MM (Mend & Maim)")
@@ -1220,7 +1220,7 @@ async def on_message(message):
         await client.send_message(message.channel, "Build focada em defesa com o Globo do Frost. \n https://i.imgur.com/fqwjycH.png")
                                
     if message.content.upper() == "!BUILD GARA":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        await client.send_message(message.channel, "Build da Gara perfeita para defesa, controle, dano ou resistência. \n https://i.imgur.com/rfuxHIK.jpg")
 
     if message.content.upper() == "!BUILD HARROW":
         await client.send_message(message.channel, "Há duas builds disponíveis para o Harrow, especifique a sua escolha. \n !GERAL \n !EIDOLON")
@@ -1233,7 +1233,14 @@ async def on_message(message):
         
 
     if message.content.upper() == "!BUILD HYDROID":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        await client.send_message(message.channel, "Há duas builds disponíveis para o Hydroid, especifique a sua escolha. \n !VERSÁTIL \n !FARM")
+
+    if message.content.upper().startswith ("!VERSÁTIL"):
+        await client.send_message(message.channel, "Build para missões em geral. \n https://i.imgur.com/76PfFpS.jpg")
+
+        
+    if message.content.upper().startswith ("!FARM"):
+        await client.send.message(message.channel, "Build para farm de recursos com o mod de Ampliação Pilfering Swarm da quarta habilidade. \n https://i.imgur.com/DXcfvrp.jpg")
 
     if message.content.upper() == "!BUILD INAROS":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
