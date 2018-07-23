@@ -6,6 +6,7 @@ import asyncio
 import time
 
 
+e = discord.Embed()
 Client = discord.Client()
 client = commands.Bot(command_prefix = "!")
 
@@ -1506,7 +1507,7 @@ async def on_message(message):
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
         
     if message.content.upper() == "!19":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")                                  
+        e.set_image(url="https://i.imgur.com/w2blpRF.png)                                  
    
 
     
