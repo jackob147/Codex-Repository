@@ -1508,7 +1508,7 @@ async def on_message(message):
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
         
     if message.content.upper() == "!19":
-        message.channel.send e.set_image(url="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg")
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
         
 
 
