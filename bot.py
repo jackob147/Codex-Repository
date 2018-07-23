@@ -636,7 +636,7 @@ async def on_message(message):
     if "O QUE É MOD" in message.content.upper():
         await client.send_message(message.channel, "Mods são cartas que aumentam os atributos de suas armas, warframes e companheiros.")
 
-    if "O QUE É UM MOD" in message.content.upper():
+    if "O QUE É UM MOD?" in message.content.upper():
         await client.send_message(message.channel, "Mods são cartas que aumentam os atributos de suas armas, warframes e companheiros.")
 
     if "O QUE SÃO MODS" in message.content.upper():
@@ -646,7 +646,7 @@ async def on_message(message):
         await client.send_message(message.channel, "Mods são cartas que aumentam os atributos de suas armas, warframes e companheiros.")
 
     if "!ALERTAS" in message.content.upper():
-        await client.send_message(message.channel, "Alertas são missões aleatórios em que você ganha prêmios especificos por concluí-las.")
+        await client.send_message(message.channel, "Alertas são missões aleatórios em que você ganha prêmios específicos por concluí-las.")
 
     if "!AURA" in message.content.upper():
         await client.send_message(message.channel, "Mods de Aura são mods que concedem efeitos específicos diferentes dos demais mods. Mods de Aura só podem ser conseguidos em Alertas.")
@@ -661,7 +661,7 @@ async def on_message(message):
         await client.send_message(message.channel, "Mods de Aura são mods que concedem efeitos específicos diferentes dos demais mods. Mods de Aura só podem ser conseguidos em Alertas.")
 
     if "O QUE É AURA" in message.content.upper():
-        await client.send_message(message.channel, "Mods de Aura são mods que concedem efeitos específicos diferentes dos demais mods. Mods de Aura só podem ser conseguidos em Alertas.")
+        await client.send_message(message.channel, "Mods de Aura são mods que concedem efeitos específicos diferentes dos demais mods e só podem ser equipados no espaço de Aura. Mods de Aura só podem ser conseguidos em Alertas.")
 
     if "O QUE É UM MOD DE AURA" in message.content.upper():
         await client.send_message(message.channel, "Mods de Aura são mods que concedem efeitos específicos diferentes dos demais mods. Mods de Aura só podem ser conseguidos em Alertas.")
@@ -766,22 +766,22 @@ async def on_message(message):
     if "ONDE EU ACHO CETUS WISP" in message.content.upper():
         await client.send_message(message.channel, "Para farmar Cetus Wisp, veja o tutorial do youtube: \n https://www.youtube.com/watch?v=BuOx9cMoNGI.")
 
-    if "COMO EU FARMO AS RELÍQUIAS DA EMBER" in message.content.upper():
+    if "COMO EU FARMO AS RELÍQUIAS DO RHINO" in message.content.upper():
         await client.send_message(message.channel, "As relíquias da Ember, Frost e Loki Prime estão dropando exclusivamente de Pacotes de Relíquias de Sindicato e Caças de Cetus.")
         
-    if "COMO EU FARMO AS RELÍQUIAS DO FROST" in message.content.upper():
+    if "COMO EU FARMO AS RELÍQUIAS DO SCINDO" in message.content.upper():
         await client.send_message(message.channel, "As relíquias da Ember, Frost e Loki Prime estão dropando exclusivamente de Pacotes de Relíquias de Sindicato e Caças de Cetus.")
 
-    if "COMO EU FARMO AS RELÍQUIAS DO LOKI" in message.content.upper():
+    if "COMO EU FARMO AS RELÍQUIAS DA NYX" in message.content.upper():
         await client.send_message(message.channel, "As relíquias da Ember, Frost e Loki Prime estão dropando exclusivamente de Pacotes de Relíquias de Sindicato e Caças de Cetus.")
 
-    if "ONDE FARMA AS RELÍQUIAS DA EMBER" in message.content.upper():
+    if "ONDE FARMA AS RELÍQUIAS DA NYX" in message.content.upper():
         await client.send_message(message.channel, "As relíquias da Ember, Frost e Loki Prime estão dropando exclusivamente de Pacotes de Relíquias de Sindicato e Caças de Cetus.")
         
-    if "ONDE FARMA AS RELÍQUIAS DO FROST" in message.content.upper():
+    if "ONDE FARMA AS RELÍQUIAS DO RHINO" in message.content.upper():
         await client.send_message(message.channel, "As relíquias da Ember, Frost e Loki Prime estão dropando exclusivamente de Pacotes de Relíquias de Sindicato e Caças de Cetus.")
 
-    if "ONDE FARMA AS RELÍQUIAS DO LOKI" in message.content.upper():
+    if "ONDE FARMA AS RELÍQUIAS DO SCINDO" in message.content.upper():
         await client.send_message(message.channel, "As relíquias da Ember, Frost e Loki Prime estão dropando exclusivamente de Pacotes de Relíquias de Sindicato e Caças de Cetus.")    
 
     if "QUAIS SÃO AS RELÍQUIAS" in message.content.upper():
@@ -799,59 +799,9 @@ async def on_message(message):
     if "QUAIS RELÍQUIAS QUE DROPAM" in message.content.upper():
         await client.send_message(message.channel, "Aqui está uma lista de relíquias e seus drops: \n http://warframe.wikia.com/wiki/Void_Relic/ByRewards.")
 
-    if "DÁ PRA FARMAR A EMBER PRIME" in message.content.upper():
-        await client.send_message(message.channel, "Ember, Loki e Frost Prime, com seus respectivos equipamentos estão fora do vault, o que significa que suas relíquias são farmáveis.")
-
-    if "DÁ PRA FARMAR O LOKI PRIME" in message.content.upper():
-        await client.send_message(message.channel, "Ember, Loki e Frost Prime, com seus respectivos equipamentos estão fora do vault, o que significa que suas relíquias são farmáveis.")
-
-    if "DÁ PRA FARMAR O FROST PRIME" in message.content.upper():
-        await client.send_message(message.channel, "Ember, Loki e Frost Prime, com seus respectivos equipamentos estão fora do vault, o que significa que suas relíquias são farmáveis.")
-
-    if "TÁ DANDO PRA FARMAR A EMBER PRIME" in message.content.upper():
-        await client.send_message(message.channel, "Ember, Loki e Frost Prime, com seus respectivos equipamentos estão fora do vault, o que significa que suas relíquias são farmáveis.")
-    
-    if "TÁ DANDO PRA FARMAR O LOKI PRIME" in message.content.upper():
-        await client.send_message(message.channel, "Ember, Loki e Frost Prime, com seus respectivos equipamentos estão fora do vault, o que significa que suas relíquias são farmáveis.")
-    
-    if "TÁ DANDO PRA FARMAR O FROST PRIME" in message.content.upper():
-        await client.send_message(message.channel, "Ember, Loki e Frost Prime, com seus respectivos equipamentos estão fora do vault, o que significa que suas relíquias são farmáveis.")
-
-    if "DA PRA FARMAR A EMBER PRIME" in message.content.upper():
-        await client.send_message(message.channel, "Ember, Loki e Frost Prime, com seus respectivos equipamentos estão fora do vault, o que significa que suas relíquias são farmáveis.")
-
-    if "DA PRA FARMAR O LOKI PRIME" in message.content.upper():
-        await client.send_message(message.channel, "Ember, Loki e Frost Prime, com seus respectivos equipamentos estão fora do vault, o que significa que suas relíquias são farmáveis.")
-
-    if "DA PRA FARMAR O FROST PRIME" in message.content.upper():
-        await client.send_message(message.channel, "Ember, Loki e Frost Prime, com seus respectivos equipamentos estão fora do vault, o que significa que suas relíquias são farmáveis.")
-
-    if "TA DANDO PRA FARMAR A EMBER PRIME" in message.content.upper():
-        await client.send_message(message.channel, "Ember, Loki e Frost Prime, com seus respectivos equipamentos estão fora do vault, o que significa que suas relíquias são farmáveis.")
-    
-    if "TA DANDO PRA FARMAR O LOKI PRIME" in message.content.upper():
-        await client.send_message(message.channel, "Ember, Loki e Frost Prime, com seus respectivos equipamentos estão fora do vault, o que significa que suas relíquias são farmáveis.")
-    
-    if "TA DANDO PRA FARMAR O FROST PRIME" in message.content.upper():
-        await client.send_message(message.channel, "Ember, Loki e Frost Prime, com seus respectivos equipamentos estão fora do vault, o que significa que suas relíquias são farmáveis.")
-
-    if "DÁ PRA FARMAR A EMBER PRIME" in message.content.upper():
-        await client.send_message(message.channel, "Ember, Loki e Frost Prime, com seus respectivos equipamentos estão fora do vault, o que significa que suas relíquias são farmáveis.")
-
-    if "DÁ PRA FARMAR O LOKI PRIME" in message.content.upper():
-        await client.send_message(message.channel, "Ember, Loki e Frost Prime, com seus respectivos equipamentos estão fora do vault, o que significa que suas relíquias são farmáveis.")
-
-    if "DÁ PRA FARMAR O FROST PRIME" in message.content.upper():
-        await client.send_message(message.channel, "Ember, Loki e Frost Prime, com seus respectivos equipamentos estão fora do vault, o que significa que suas relíquias são farmáveis.")
-
-    if "TÁ DANDO PRA FARMAR A EMBER PRIME" in message.content.upper():
-        await client.send_message(message.channel, "Ember, Loki e Frost Prime, com seus respectivos equipamentos estão fora do vault, o que significa que suas relíquias são farmáveis.")
-    
-    if "TÁ DANDO PRA FARMAR O LOKI PRIME" in message.content.upper():
-        await client.send_message(message.channel, "Ember, Loki e Frost Prime, com seus respectivos equipamentos estão fora do vault, o que significa que suas relíquias são farmáveis.")
     
     if "!UNVAULT" in message.content.upper():
-        await client.send_message(message.channel, "Ember, Loki e Frost Prime, com seus respectivos equipamentos estão fora do vault, o que significa que suas relíquias são farmáveis.")
+        await client.send_message(message.channel, "Unvault contará com o Rhino e Nyx Prime com seus respectivos acessórios.")
 
 
     if "!VAULT" in message.content.upper():
