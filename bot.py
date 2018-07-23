@@ -1307,7 +1307,7 @@ async def on_message(message):
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
 
     if message.content.upper() == "!BUILD NIDUS":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        await client.send_message(message.channel, "Build do Nidus focada no mod de Ampliação Insatiable e sua chance de stackar mutação e aumentar ainda mais o dano causado por sua primeira habilidade. Hunter Adrenaline irá fornecer toda energia necessária. \n https://i.imgur.com/7Y3Iowh.png")
 
     if message.content.upper() == "!BUILD NOVA":
         await client.send_message(message.channel, "Há três build disponíveis para o warframe Nova, especifique a sua escolha. \n !SLOW \n !SPEED \n !WISP")
