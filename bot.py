@@ -8,7 +8,7 @@ import time
 
 Client = discord.Client()
 client = commands.Bot(command_prefix = "!")
-e = discord.Embed()
+
 
 @client.event
 async def on_ready():
@@ -1512,7 +1512,8 @@ async def on_message(message):
 
                     
    
-
+e = discord.Embed()
+e.set_image(url="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg")
     
 
     
