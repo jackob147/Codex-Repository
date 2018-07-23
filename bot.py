@@ -1394,7 +1394,7 @@ async def on_message(message):
         await client.send_message(message.channel, "Build do Volt que adiciona controle de grupo e dano com sua ultimate enquanto fornece escudos para o esquadrão com o mod de ampliação Capacitance. \n https://i.imgur.com/w2blpRF.png")
         
     if message.content.upper() == "!BUILD WUKONG":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        await client.send_message(message.channel, "Build do Wukong que te manterá vivo por muito tempo até que o limite de mortes evitadas por Defy seja alcançado, enquanto mantém um baixo custo de energia para o Primal Fury e Cloud Walker. \n https://i.imgur.com/F8fB5SO.jpg")
 
     if message.content.upper() == "!BUILD IRON STAFF":
         await client.send_message(message.channel, "Build para o Bastão Exalted do Wukong com alto dano corrosivo multiplicado pelo Condition Overload e alto dano crítico")
