@@ -1379,11 +1379,17 @@ async def on_message(message):
         await client.send_message(message.channel, "Build do Vauban que manterá a quarta habilidade sempre ativa, graças ao mod de Ampliação Perpetual Vortex. \n https://i.imgur.com/qPNUPoI.jpg")
 
     if message.content.upper().startswith ("!DANO"):
-        await client.send_message(message.channel, "Build do Vauban com foco em dano, seja em sua primeira habilidade ou no dano causado em inimigos puxados pelo Vortex. \n hhttps://i.imgur.com/w2Ww1Ks.jpg")  
+        await client.send_message(message.channel, "Build do Vauban com foco em dano, seja em sua primeira habilidade ou no dano causado em inimigos puxados pelo Vortex. \n https://i.imgur.com/w2Ww1Ks.jpg")  
        
         
     if message.content.upper() == "!BUILD VOLT":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        await client.send_message(message.channel, "Há duas builds disponíveis para o warframe Volt, especifique a sua escolha. \n !RUSH \n !CAPACITANCE")
+
+    if message.content.upper().startswith ("!RUSH"):
+        await client.send_message(message.channel, "Build do Volt para quem gosta de fazer missões rapidamente e abusar da velocidade. \n https://i.imgur.com/hUxUzwd.png")
+
+    if message.content.upper().startswith ("!CAPACITANCE"):
+        await client.send_message(message.channel, "Build do Volt que adiciona controle de grupo e dano com sua ultimate enquanto fornece escudos para o esquadrão com o mod de ampliação Capacitance. \n https://i.imgur.com/w2blpRF.png")
         
     if message.content.upper() == "!BUILD WUKONG":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
