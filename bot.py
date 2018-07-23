@@ -6,6 +6,7 @@ import asyncio
 import time
 
 
+e = discord.Embed()
 Client = discord.Client()
 client = commands.Bot(command_prefix = "!")
 
