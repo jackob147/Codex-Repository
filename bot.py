@@ -6,9 +6,9 @@ import asyncio
 import time
 
 
-e = discord.Embed()
 Client = discord.Client()
 client = commands.Bot(command_prefix = "!")
+e = discord.Embed()
 
 @client.event
 async def on_ready():
