@@ -1120,10 +1120,10 @@ async def on_message(message):
         await client.send_message(message.channel, "Build Focada na 2ª e 4ª skill. \n https://i.imgur.com/o8Du7YM.png")
 
     if message.content.upper() == "!BUILD ATLAS":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        await client.send_message(message.channel, "Build do Atlas com foco na primeira habilidade com alto dano e seu aumento de armadura e cura concedida ao matar inimigos petrificados. \n https://i.imgur.com/FmDt1E8.jpg")
  
     if message.content.upper() == "!BUILD BANSHEE":
-        await client.send_message(message.channel, "Há duas builds disponíveis para a Banshee Prime, especifique a sua escolha. \n !SAVAGE \n !SOUNDQUAKE")
+        await client.send_message(message.channel, "Há duas builds disponíveis para a Banshee, especifique a sua escolha. \n !SAVAGE \n !SOUNDQUAKE")
 
     
     if message.content.upper().startswith ("!SAVAGE"):
@@ -1254,7 +1254,7 @@ async def on_message(message):
         await client.send_message(message.channel, "Build para jogadores que preferem um papel de suporte, mantendo os inimigos sob o efeito de cegueira da ultimate ou segunda habilidade. \n https://i.imgur.com/f7tdDL5.jpg") 
 
     if message.content.upper() == "!BUILD NEZHA":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        await client.send_message(message.channel, "Build do Nezha que permite ao jogador uma alta mobilidade e controle e uma oportunidade de intervalo para relançar a Terceira Habilidade quando necessário. \n https://i.imgur.com/cgOEjB7.jpg")
 
     if message.content.upper() == "!BUILD NIDUS":
         await client.send_message(message.channel, "Build do Nidus focada no mod de Ampliação Insatiable e sua chance de stackar mutação e aumentar ainda mais o dano causado por sua primeira habilidade. Hunter Adrenaline irá fornecer toda energia necessária. \n https://i.imgur.com/7Y3Iowh.png")
@@ -1278,7 +1278,7 @@ async def on_message(message):
         await client.send_message(message.channel, "Build da Octavia que causará alto dano com o Mallet e ainda o manterá invisível por um longo período. \n https://i.imgur.com/wgCuPNa.jpg")
 
     if message.content.upper() == "!BUILD OBERON":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+        await client.send_message(message.channel, "Build do Oberon com um alto sustain para todo o esquadrão, enquanto inflige alto dano nos inimigos. \n https://i.imgur.com/YdaFukQ.jpg")
 
     if message.content.upper() == "!BUILD RHINO":
         await client.send_message(message.channel, "Há três build disponíveis para o Rhino, especifique a sua escolha. \n !TANK \n !SUP \n !STOMP")
