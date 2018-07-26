@@ -1442,8 +1442,8 @@ async def on_message(message):
     if message.content.upper() == "!BUILD KHORA":
         await client.send_message(message.channel, "Build da Warframe Khora com um grande controle fornecido por sua segunda e quarta habilidade. \n https://i.imgur.com/5XsxkGy.png")
 
-    if message.content.upper() == "!14":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+    if message.content.upper() == "!KHORA":
+        await client.send_message(message.channel, "As partes do Warframe Khora dropam no Massacre do Santuário Normal. \n https://www.youtube.com/watch?v=jaK6cZk-Ris")
 
     if message.content.upper() == "!15":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
