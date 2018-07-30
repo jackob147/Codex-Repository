@@ -767,22 +767,22 @@ async def on_message(message):
         await client.send_message(message.channel, "Para farmar Cetus Wisp, veja o tutorial do youtube: \n https://www.youtube.com/watch?v=BuOx9cMoNGI.")
 
     if "COMO EU FARMO AS RELÍQUIAS DO RHINO" in message.content.upper():
-        await client.send_message(message.channel, "As relíquias da Ember, Frost e Loki Prime estão dropando exclusivamente de Pacotes de Relíquias de Sindicato e Caças de Cetus.")
+        await client.send_message(message.channel, "As relíquias da Nyx e Rhino Prime estão dropando no Void.")
         
     if "COMO EU FARMO AS RELÍQUIAS DO SCINDO" in message.content.upper():
-        await client.send_message(message.channel, "As relíquias da Ember, Frost e Loki Prime estão dropando exclusivamente de Pacotes de Relíquias de Sindicato e Caças de Cetus.")
+        await client.send_message(message.channel, "As relíquias da Nyx e Rhino Prime estão dropando no Void.")
 
     if "COMO EU FARMO AS RELÍQUIAS DA NYX" in message.content.upper():
-        await client.send_message(message.channel, "As relíquias da Ember, Frost e Loki Prime estão dropando exclusivamente de Pacotes de Relíquias de Sindicato e Caças de Cetus.")
+        await client.send_message(message.channel, "As relíquias da Nyx e Rhino Prime estão dropando no Void.")
 
     if "ONDE FARMA AS RELÍQUIAS DA NYX" in message.content.upper():
-        await client.send_message(message.channel, "As relíquias da Ember, Frost e Loki Prime estão dropando exclusivamente de Pacotes de Relíquias de Sindicato e Caças de Cetus.")
+        await client.send_message(message.channel, "As relíquias da Nyx e Rhino Prime estão dropando no Void.")
         
     if "ONDE FARMA AS RELÍQUIAS DO RHINO" in message.content.upper():
-        await client.send_message(message.channel, "As relíquias da Ember, Frost e Loki Prime estão dropando exclusivamente de Pacotes de Relíquias de Sindicato e Caças de Cetus.")
+        await client.send_message(message.channel, "As relíquias da Nyx e Rhino Prime estão dropando no Void.")
 
     if "ONDE FARMA AS RELÍQUIAS DO SCINDO" in message.content.upper():
-        await client.send_message(message.channel, "As relíquias da Ember, Frost e Loki Prime estão dropando exclusivamente de Pacotes de Relíquias de Sindicato e Caças de Cetus.")    
+        await client.send_message(message.channel, "As relíquias da Nyx e Rhino Prime estão dropando no Void.")    
 
     if "QUAIS SÃO AS RELÍQUIAS" in message.content.upper():
         await client.send_message(message.channel, "Aqui está uma lista de relíquias e seus drops: \n http://warframe.wikia.com/wiki/Void_Relic/ByRewards.")
@@ -1113,11 +1113,11 @@ async def on_message(message):
         await client.send_message(message.channel, "Há duas builds disponíveis para o Ash Prime, especifique a sua escolha. \n !BLADE \n !SMOKE")
         
     if message.content.upper().startswith ("!SMOKE"):
-        await client.send_message(message.channel, "Build focada em Duração. Excelente para o farm de Kuva. \n https://i.imgur.com/iPTWEHX.png")
+        await client.send_message(message.channel, "Build do Ash focada em Duração. \n https://i.imgur.com/iPTWEHX.png")
         
 
     if message.content.upper().startswith ("!BLADE"):
-        await client.send_message(message.channel, "Build Focada na 2ª e 4ª skill. \n https://i.imgur.com/o8Du7YM.png")
+        await client.send_message(message.channel, "Build do Ash Focada na sua quarta habilidade e os combos fornecidos por habilidades posteriores. \n https://i.imgur.com/o8Du7YM.png")
 
     if message.content.upper() == "!BUILD ATLAS":
         await client.send_message(message.channel, "Build do Atlas com foco na primeira habilidade com alto dano e seu aumento de armadura e cura concedida ao matar inimigos petrificados. \n https://i.imgur.com/FmDt1E8.jpg")
@@ -1373,6 +1373,9 @@ async def on_message(message):
     if message.content.upper() == "!BUILD AKSTILETTO PRIME":
         await client.send_message(message.channel, "Build com foco em dano de status multiplicado pelo dano crítico. \n https://i.imgur.com/b5SBlP7.png")
 
+    if message.content.upper() == "!BUILD AKSTILETTO":
+        await client.send_message(message.channel, "Build com foco em dano de status multiplicado pelo dano crítico. \n https://i.imgur.com/b5SBlP7.png")
+
     if message.content.upper() == "!BUILD DUAL TOXOCYST":
         await client.send_message(message.channel, "https://i.imgur.com/A29IkUX.jpg")
 
@@ -1393,6 +1396,9 @@ async def on_message(message):
 
     if message.content.upper() == "!BUILD AKLEX PRIME":
         await client.send_message(message.channel, "Build focada em dano crítico e status. \n https://i.imgur.com/sWkAmJX.png")
+
+    if message.content.upper() == "!BUILD AKLEX":
+        await client.send_message(message.channel, "Build focada em dano crítico e status. \n https://i.imgur.com/sWkAmJX.png")
         
     if message.content.upper() == "!BUILD ATTERAX":
         await client.send_message(message.channel, "Há duas builds disponíveis para a Atterax, especifique a sua escolha. \n !ACESSÍVEL \n !MAIMING")
@@ -1411,8 +1417,14 @@ async def on_message(message):
         
     if message.content.upper() == "!BUILD BOLTOR PRIME":
         await client.send_message(message.channel, "Build de status para a Boltor Prime. O thermite rounds pode ser trocado com o Vigilant Armaments, mas precisará de mais uma forma. \n https://i.imgur.com/jb0gt47.png")
+
+    if message.content.upper() == "!BUILD BOLTOR":
+        await client.send_message(message.channel, "Build de status para a Boltor Prime. O thermite rounds pode ser trocado com o Vigilant Armaments, mas precisará de mais uma forma. \n https://i.imgur.com/jb0gt47.png")
         
     if message.content.upper() == "!BUILD BRATON PRIME":
+        await client.send_message(message.channel, "Build de Status para a Braton Prime. \n https://i.imgur.com/Xt6jbqg.png")
+
+    if message.content.upper() == "!BUILD BRATON":
         await client.send_message(message.channel, "Build de Status para a Braton Prime. \n https://i.imgur.com/Xt6jbqg.png")
                                   
     if message.content.upper() == "!BUILD BROKEN WAR":
@@ -1428,6 +1440,9 @@ async def on_message(message):
         await client.send_message(message.channel, "Build para a Euphona focada em dano crítico combinado com o dano corrosivo. \n https://i.imgur.com/GJT0yFV.png")                                  
         
     if message.content.upper() == "!BUILD CERNOS PRIME":
+        await client.send_message(message.channel, "Build de crítico e viral para o Cernos Prime. \n https://i.imgur.com/Gn2kvnJ.png")
+
+    if message.content.upper() == "!BUILD CERNOS":
         await client.send_message(message.channel, "Build de crítico e viral para o Cernos Prime. \n https://i.imgur.com/Gn2kvnJ.png")
         
     if message.content.upper() == "!BUILD DREAD":
