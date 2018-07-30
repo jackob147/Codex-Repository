@@ -1230,6 +1230,12 @@ async def on_message(message):
         await client.send_message(message.channel, "Há duas builds disponíveis para o Loki, especifique a sua escolha. \n !SPY \n !DISARM")
 
     if message.content.upper().startswith ("!SPY"):
+        await client.send_message(message.channel, "Build do Loki para missões de espionagem, prezando por uma abordagem mais sutil. \n https://i.imgur.com/2A4zwvC.jpg")
+
+    if message.content.upper().startswith ("!DISARM"):
+        await client.send_message(message.channel, "Build com foco na quarta habilidade e seu controle em uma área enorme. \n https://i.imgur.com/81H3Vqq.jpg")
+
+    if message.content.upper().startswith ("!SPY"):
         await client.send.message(message.channel, "Build para missões de espionagem, prezando por uma abordagem mais sutil. \n https://i.imgur.com/2A4zwvC.jpg")
         
     if message.content.upper().startswith ("!DISARM"):
