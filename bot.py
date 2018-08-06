@@ -1166,7 +1166,7 @@ async def on_message(message):
         await client.send.message(message.channel, "Build com foco na ultimate de Equinox, podendo causar uma grande quantidade de dano (forma diurna) ou uma grande quantidade de cura em área (forma diurna). \n https://i.imgur.com/n9NoJLA.png")        
         
     if message.content.upper() == "!BUILD EXCALIBUR":
-        await client.send_message(message.channel, "https://i.imgur.com/82slxkF.jpg")
+        await client.send_message(message.channel, "Build do Excalibur com um alto dano e permitindo ainda um longo período com a ultimate ativa. \n https://i.imgur.com/82slxkF.jpg")
 
     if message.content.upper() == "!BUILD FROST":
         await client.send_message(message.channel, "Build focada em defesa com o Globo do Frost. \n https://i.imgur.com/fqwjycH.png")
@@ -1370,6 +1370,9 @@ async def on_message(message):
     if message.content.upper() == "!BUILD NIKANA":
         await client.send_message(message.channel, "https://i.imgur.com/V8avqTe.jpg")
 
+    if message.content.upper() == "!BUILD NIKANA PRIME":
+        await client.send_message(message.channel, "https://i.imgur.com/V8avqTe.jpg")
+
     if message.content.upper() == "!BUILD AKSTILETTO PRIME":
         await client.send_message(message.channel, "Build com foco em dano de status multiplicado pelo dano crítico. \n https://i.imgur.com/b5SBlP7.png")
 
@@ -1379,8 +1382,8 @@ async def on_message(message):
     if message.content.upper() == "!BUILD DUAL TOXOCYST":
         await client.send_message(message.channel, "https://i.imgur.com/A29IkUX.jpg")
 
-    if message.content.upper() == "!BUILD SOMA":
-        await client.send_message(message.channel, "https://i.imgur.com/0cCvb2v.png")
+    if "!BUILD SOMA" in message.content.upper():
+        await client.send_message(message.channel, "Build da Soma Prime com alto dano crítico corrosivo. \n https://i.imgur.com/0cCvb2v.png")
 
     if message.content.upper() == "!BUILD ARCA PLASMOR":
         await client.send_message(message.channel, "Build para a Arca Plasmor focada em dano crítico. \n https://i.imgur.com/elTUR89.png")
@@ -1455,7 +1458,10 @@ async def on_message(message):
         await client.send_message(message.channel, "Build de Status para o Dread. \n https://i.imgur.com/3e84wvJ.png")  
                                   
     if message.content.upper() == "!BUILD DUAL CLEAVERS":
-        await client.send_message(message.channel, "Build Critico-Status para as Prisma Dual Cleavers. Em vez do riven, pode ser usado o Voltaic Strike. Só precisará de uma forma se quiser pôr algo em vez do Life Strike. \n https://i.imgur.com/dCfAAlD.png")
+        await client.send_message(message.channel, "Build Critico-Status para a Prisma Dual Cleavers. Em vez do riven, pode ser usado o Voltaic Strike. Só precisará de uma forma se quiser pôr algo em vez do Life Strike. \n https://i.imgur.com/dCfAAlD.png")
+
+    if message.content.upper() == "!BUILD PRISMA DUAL CLEAVERS":
+        await client.send_message(message.channel, "Build Critico-Status para a Prisma Dual Cleavers. Em vez do riven, pode ser usado o Voltaic Strike. Só precisará de uma forma se quiser pôr algo em vez do Life Strike. \n https://i.imgur.com/dCfAAlD.png")
 
     if message.content.upper() == "!BUILD SWEEPER PRIME":
         await client.send_message(message.channel, "Build para a arma padrão do Carrier Prime. \n https://i.imgur.com/XAbSPev.png")
@@ -1466,20 +1472,47 @@ async def on_message(message):
     if message.content.upper() == "!KHORA":
         await client.send_message(message.channel, "As partes do Warframe Khora dropam no Massacre do Santuário Normal. \n https://www.youtube.com/watch?v=jaK6cZk-Ris")
 
-    if message.content.upper() == "!15":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+    if message.content.upper() == "!BUILD OPTICOR":
+        await client.send_message(message.channel, "Build da Opticor com duas formas com um alto dano de perfuração e radiação. \n https://i.imgur.com/3HbXAZg.jpg")
 
-    if message.content.upper() == "!16":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+    if "!BUILD GLAIVE" in message.content.upper():
+        await client.send_message(message.channel, "Build da Glaive Prime com foco em dano de status elemental e primário. \n https://i.imgur.com/v0XzeKo.jpg")
         
-    if message.content.upper() == "!17":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+    if "!BUILD GALATINE" in message.content.upper():
+        await client.send_message(message.channel, "Build da Galatine Prime com uma grande quantidade de dano corrosivo e alta velocidade de ataque. \n https://i.imgur.com/Ftbk2qJ.jpg")
         
-    if message.content.upper() == "!18":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+    if message.content.upper() == "!BUILD SUPRA":
+        await client.send_message(message.channel, "Build da Supra Vandal com uma alta chance de proc de status multiplicado por sua incrível taxa de disparo. \n https://i.imgur.com/bYjlsNm.jpg")
+
+    if message.content.upper() == "!BUILD SUPRA VANDAL":
+        await client.send_message(message.channel, "Build da Supra Vandal com uma alta chance de proc de status multiplicado por sua incrível taxa de disparo. \n https://i.imgur.com/bYjlsNm.jpg")
         
-    if message.content.upper() == "!19":
-        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181158750781440/Trinity_EV.png")
+    if message.content.upper() == "!BUILD STRUN":
+        await client.send_message(message.channel, "Build da Strun Wraith com 100% de chance de status e enorme quantidade de dano elemental para causar um efeito devastador com um tiro certeiro. \n https://i.imgur.com/uOXTMSg.jpg")
+
+    if message.content.upper() == "!BUILD STRUN WRAITH":
+        await client.send_message(message.channel, "Build da Strun Wraith com 100% de chance de status e enorme quantidade de dano elemental para causar um efeito devastador com um tiro certeiro. \n https://i.imgur.com/uOXTMSg.jpg")
+
+    if message.content.upper() == "!BUILD RAKTA BALLISTICA":
+        await client.send_message(message.channel, "Build da Rakta Ballistica com um dano de radiação e uma grande quantidade de dano de perfuração para casos onde não haja proc de status. \n https://i.imgur.com/zZqeqP2.jpg")
+
+    if message.content.upper() == "!BUILD DERA VANDAL":
+        await client.send_message(message.channel, "Build para a Dera Vandal com apenas duas formas e uma absurda probabilidade de proc de dano de gás. \n https://i.imgur.com/E8uNNU4.jpg")
+
+    if message.content.upper() == "!BUILD ORTHOS":
+        await client.send_message(message.channel, "Build para a Orthos Prime com um equilíbrio entre alto dano elemental e crítico. \n https://i.imgur.com/ZvcQ5el.jpg")
+
+    if message.content.upper() == "!BUILD SNIPETRON":
+        await client.send_message(message.channel, "Build da Snipetron Vandal com uma quantidade massiva de dano elemental crítico. \n https://i.imgur.com/2cCMaRK.jpg")
+
+    if message.content.upper() == "!BUILD SNIPETRON VANDAL":
+        await client.send_message(message.channel, "Build da Snipetron Vandal com uma quantidade massiva de dano elemental crítico. \n https://i.imgur.com/2cCMaRK.jpg")
+
+    if message.content.upper() == "!BUILD DERA":
+        await client.send_message(message.channel, "Build para a Dera Vandal com apenas duas formas e uma absurda probabilidade de proc de dano de gás. \n https://i.imgur.com/E8uNNU4.jpg")
+
+    if message.content.upper() == "!BUILD ORTHOS PRIME":
+        await client.send_message(message.channel, "Build para a Orthos Prime com um equilíbrio entre alto dano elemental e crítico. \n https://i.imgur.com/ZvcQ5el.jpg")
         
 
 
