@@ -1510,6 +1510,9 @@ async def on_message(message):
 
     if message.content.upper() == "!BUILD DERA":
         await client.send_message(message.channel, "Build para a Dera Vandal com apenas duas formas e uma absurda probabilidade de proc de dano de gás. \n https://i.imgur.com/E8uNNU4.jpg")
+        
+    if message.content.upper() == "!BUILD BALLISTICA":
+        await client.send_message(message.channel, "Temos Builds para a Rakta Ballistica e Ballistica Prime. Por favor, especifique a sua escolha. \n !BUILD RAKTA BALLISTICA \n !BUILD BALLISTICA PRIME")
 
     if message.content.upper() == "!BUILD ORTHOS PRIME":
         await client.send_message(message.channel, "Build para a Orthos Prime com um equilíbrio entre alto dano elemental e crítico. \n https://i.imgur.com/ZvcQ5el.jpg")
