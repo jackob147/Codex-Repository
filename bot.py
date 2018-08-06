@@ -330,7 +330,7 @@ async def on_message(message):
         await client.send_message(message.channel, "As partes da Warframe Valkyr dropam do Alad V, em Themisto - Júpiter. \n https://www.youtube.com/watch?v=x2B8d-crRZI&index=23&list=PLcHK4Prg02jdfwmrYZPG_RVGTyT2RYVPF")
 
     if "!TRINITY" in message.content.upper():
-        await client.send_message(message.channel, "As partes da Warframe Trinity dropam das Ambulas, em Hades - Plutão. \n https://www.youtube.com/watch?v=KurbStEIqrQ&list=PLDmrv5FhAWj_VzURMqylYnfxlRWvtLspv&index=20")
+        await client.send_message(message.channel, "As partes da Warframe Trinity dropam das Ambulas, em Hades - Plutão. \n https://www.youtube.com/watch?v=0DNckVyRz74")
 
     if "ONDE FARMA A VALKYR" in message.content.upper():
         await client.send_message(message.channel, "As partes da Warframe Valkyr dropam do Alad V, em Themisto - Júpiter")
