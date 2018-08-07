@@ -1135,7 +1135,7 @@ async def on_message(message):
     if message.content.upper() == "!BUILD CHROMA":
         await client.send_message(message.channel, "Build do Chroma utilizando a energia de gelo, para se tornar um ótimo tank. \n https://i.imgur.com/YVHw1Kx.jpg")
     
-    if "!BUILD EMBER" in message.content.upper()::
+    if "!BUILD EMBER" in message.content.upper():
         await client.send_message(message.channel, "Build que manterá sua quarta habilidade sempre ativa e com um baixo custo para o seu aumento de dano da segunda habilidade. \n https://i.imgur.com/xldp709.jpg")
 
     if message.content.upper() == "!BUILD EQUINOX":
