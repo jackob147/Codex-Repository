@@ -1188,10 +1188,10 @@ async def on_message(message):
         await client.send_message(message.channel, "Há duas builds disponíveis para o Hydroid, especifique a sua escolha. \n !VERSÁTIL \n !FARM")
 
     if message.content.upper().startswith ("!VERSÁTIL"):
-        await client.send_message(message.channel, "Build do Hydroid para missões em geral. \n https://i.imgur.com/76PfFpS.jpg")
+        await client.send_message(message.channel, "Build do Hydroid Prime para missões em geral. \n https://i.imgur.com/76PfFpS.jpg")
 
     if message.content.upper().startswith ("!FARM"):
-        await client.send_message(message.channel, "Build do Hydroid para farm de recursos com o mod de Ampliação Pilfering Swarm da quarta habilidade. \n https://i.imgur.com/DXcfvrp.jpg")        
+        await client.send_message(message.channel, "Build do Hydroid Prime para farm de recursos com o mod de Ampliação Pilfering Swarm da quarta habilidade. \n https://i.imgur.com/DXcfvrp.jpg")        
 
     if message.content.upper() == "!BUILD INAROS":
         await client.send_message(message.channel, "Build do Inaros para tankar bastante e com um alto controle de grupo. \n https://i.imgur.com/h02Wzr8.jpg")
