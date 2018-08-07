@@ -758,13 +758,13 @@ async def on_message(message):
         await client.send_message(message.channel, "Cetus Wisp são itens raros encontrados nas Planícies.")
 
     if "COMO EU FARMO CETUS WISP" in message.content.upper():
-        await client.send_message(message.channel, "Para farmar Cetus Wisp, veja o tutorial do youtube: \n https://www.youtube.com/watch?v=BuOx9cMoNGI.")
+        await client.send_message(message.channel, "Para farmar Cetus Wisp, veja o tutorial de um vídeo no youtube: \n https://www.youtube.com/watch?v=BuOx9cMoNGI.")
 
     if "COMO FARMA CETUS WISP" in message.content.upper():
-        await client.send_message(message.channel, "Para farmar Cetus Wisp, veja o tutorial do youtube: \n https://www.youtube.com/watch?v=BuOx9cMoNGI.")
+        await client.send_message(message.channel, "Para farmar Cetus Wisp, veja um tutorial do youtube: \n https://www.youtube.com/watch?v=BuOx9cMoNGI.")
 
     if "ONDE EU ACHO CETUS WISP" in message.content.upper():
-        await client.send_message(message.channel, "Para farmar Cetus Wisp, veja o tutorial do youtube: \n https://www.youtube.com/watch?v=BuOx9cMoNGI.")
+        await client.send_message(message.channel, "Para farmar Cetus Wisp, veja um tutorial do youtube: \n https://www.youtube.com/watch?v=BuOx9cMoNGI.")
 
     if "COMO EU FARMO AS RELÍQUIAS DO RHINO" in message.content.upper():
         await client.send_message(message.channel, "As relíquias da Nyx e Rhino Prime estão dropando no Void.")
@@ -801,7 +801,7 @@ async def on_message(message):
 
     
     if "!UNVAULT" in message.content.upper():
-        await client.send_message(message.channel, "Unvault contará com o Rhino e Nyx Prime com seus respectivos acessórios.")
+        await client.send_message(message.channel, "Unvault atualmente conta com o Rhino e Nyx Prime com seus respectivos acessórios.")
 
 
     if "!VAULT" in message.content.upper():
@@ -1094,7 +1094,7 @@ async def on_message(message):
     if message.content.upper() == "!HUB":
         await client.send_message(message.channel, "https://hub.warframestat.us/timer")
         
-    if message.content.upper() == "!BUILD TRINITY":
+    if "!BUILD TRINITY" in message.content.upper():
         await client.send_message(message.channel, "Há três builds disponíveis para a Trinity, especifique a sua escolha. \n !EV (Energy Vampire) \n !BLESS (Blessing) \n !NUKE (Dano)")
         
     if message.content.upper().startswith ("!EV"):
@@ -1135,7 +1135,7 @@ async def on_message(message):
     if message.content.upper() == "!BUILD CHROMA":
         await client.send_message(message.channel, "Build do Chroma utilizando a energia de gelo, para se tornar um ótimo tank. \n https://i.imgur.com/YVHw1Kx.jpg")
     
-    if message.content.upper() == "!BUILD EMBER":
+    if "!BUILD EMBER" in message.content.upper()::
         await client.send_message(message.channel, "Build que manterá sua quarta habilidade sempre ativa e com um baixo custo para o seu aumento de dano da segunda habilidade. \n https://i.imgur.com/xldp709.jpg")
 
     if message.content.upper() == "!BUILD EQUINOX":
@@ -1168,8 +1168,8 @@ async def on_message(message):
     if message.content.upper() == "!BUILD EXCALIBUR":
         await client.send_message(message.channel, "Build do Excalibur com um alto dano e permitindo ainda um longo período com a ultimate ativa. \n https://i.imgur.com/82slxkF.jpg")
 
-    if message.content.upper() == "!BUILD FROST":
-        await client.send_message(message.channel, "Build focada em defesa com o Globo do Frost. \n https://i.imgur.com/fqwjycH.png")
+    if "!BUILD FROST" in message.content.upper():
+        await client.send_message(message.channel, "Build do Frost focada em defesa com seu Globo. \n https://i.imgur.com/fqwjycH.png")
                                
     if message.content.upper() == "!BUILD GARA":
         await client.send_message(message.channel, "Build da Gara perfeita para defesa, controle, dano ou resistência. \n https://i.imgur.com/rfuxHIK.jpg")
@@ -1184,7 +1184,7 @@ async def on_message(message):
         await client.send_message(message.channel, "Build ideal para Caçadas de Eidolons. \n https://i.imgur.com/XoThyC4.jpg")      
         
 
-    if message.content.upper() == "!BUILD HYDROID":
+    if "!BUILD HYDROID" in message.content.upper():
         await client.send_message(message.channel, "Há duas builds disponíveis para o Hydroid, especifique a sua escolha. \n !VERSÁTIL \n !FARM")
 
     if message.content.upper().startswith ("!VERSÁTIL"):
@@ -1215,7 +1215,7 @@ async def on_message(message):
         await client.send_message(message.channel, "Build excelente para farm com a terceira habilidade e uma abordagem mais stealth. \n https://i.imgur.com/AeJ1ryp.jpg")
  
 
-    if message.content.upper() == "!BUILD LIMBO":
+    if "!BUILD LIMBO" in message.content.upper():
         await client.send_message(message.channel, "Há duas builds disponíveis para o Limbo, especifique a sua escolha. \n !DURAÇÃO \n !ALCANCE")
 
     if message.content.upper().startswith ("!ALCANCE"):
@@ -1233,13 +1233,13 @@ async def on_message(message):
         await client.send_message(message.channel, "Build do Loki para missões de espionagem, prezando por uma abordagem mais sutil. \n https://i.imgur.com/2A4zwvC.jpg")
 
     if message.content.upper().startswith ("!DISARM"):
-        await client.send_message(message.channel, "Build com foco na quarta habilidade e seu controle em uma área enorme. \n https://i.imgur.com/81H3Vqq.jpg")
+        await client.send_message(message.channel, "Build do Loki com foco na quarta habilidade e seu controle em uma área enorme. \n https://i.imgur.com/81H3Vqq.jpg")
 
     if message.content.upper().startswith ("!SPY"):
-        await client.send.message(message.channel, "Build para missões de espionagem, prezando por uma abordagem mais sutil. \n https://i.imgur.com/2A4zwvC.jpg")
+        await client.send.message(message.channel, "Build do Loki para missões de espionagem, prezando por uma abordagem mais sutil. \n https://i.imgur.com/2A4zwvC.jpg")
         
     if message.content.upper().startswith ("!DISARM"):
-        await client.send.message(message.channel, "Build com foco na quarta habilidade e seu controle em uma área enorme. \n https://i.imgur.com/81H3Vqq.jpg")
+        await client.send.message(message.channel, "Build do Loki com foco na quarta habilidade e seu controle em uma área enorme. \n https://i.imgur.com/81H3Vqq.jpg")
 
     if message.content.upper() == "!BUILD MAG":
         await client.send_message(message.channel, "Build da Mag com o equilíbrio perfeito entre todas as habilidades, contando com o mod de Ampliação Counter Pulse para manter o controle sobre os inimigos. \n https://i.imgur.com/zX7E3pf.jpg")
@@ -1248,7 +1248,7 @@ async def on_message(message):
         await client.send_message(message.channel, "Build da Mesa que mantém um baixo custo na quarta habilidade sem tirar a duração necessária da terceira habilidade. \n https://i.imgur.com/2ecRuyg.jpg")
 
     if message.content.upper() == "!BUILD NEKROS":
-        await client.send_message(message.channel, "Build projetada para manter sempre a terceira habilidade ativa usando o mod de Ampliação Despoil e alta eficiência com um raio gigantesco. \n https://i.imgur.com/0BiX2nK.jpg")
+        await client.send_message(message.channel, "Build do Nekros projetada para manter sempre a terceira habilidade ativa usando o mod de Ampliação Despoil e alta eficiência com um raio gigantesco. \n https://i.imgur.com/0BiX2nK.jpg")
 
     if message.content.upper() == "!BUILD MIRAGE":
         await client.send_message(message.channel, "Há duas builds disponíveis para a Mirage, especifique a sua escolha. \n !CLONES \n !CEGUEIRA")
@@ -1257,7 +1257,7 @@ async def on_message(message):
         await client.send_message(message.channel, "Build da Mirage com foco no dano causado por seus clones e os buffs da terceira habilidade. \n https://i.imgur.com/lTwrTJh.jpg")  
 
     if message.content.upper().startswith ("!CEGUEIRA"):
-        await client.send_message(message.channel, "Build para jogadores que preferem um papel de suporte, mantendo os inimigos sob o efeito de cegueira da ultimate ou segunda habilidade. \n https://i.imgur.com/f7tdDL5.jpg") 
+        await client.send_message(message.channel, "Build da Mirage para jogadores que preferem um papel de suporte, mantendo os inimigos sob o efeito de cegueira da ultimate ou segunda habilidade. \n https://i.imgur.com/f7tdDL5.jpg") 
 
     if message.content.upper() == "!BUILD NEZHA":
         await client.send_message(message.channel, "Build do Nezha que permite ao jogador uma alta mobilidade e controle e uma oportunidade de intervalo para relançar a Terceira Habilidade quando necessário. \n https://i.imgur.com/cgOEjB7.jpg")
@@ -1269,13 +1269,13 @@ async def on_message(message):
         await client.send_message(message.channel, "Há três build disponíveis para o warframe Nova, especifique a sua escolha. \n !SLOW \n !SPEED \n !WISP")
 
     if message.content.upper().startswith ("!SLOW"):
-        await client.send_message(message.channel, "Build que faz com que os inimigos fiquem lentos e recebam uma grande quantidade de dano sob o efeito da quarta habilidade. \n https://i.imgur.com/97jVZMi.jpg")
+        await client.send_message(message.channel, "Build da Nova que faz com que os inimigos fiquem lentos e recebam uma grande quantidade de dano sob o efeito da quarta habilidade. \n https://i.imgur.com/97jVZMi.jpg")
 
     if message.content.upper().startswith ("!SPEED"):
         await client.send_message(message.channel, "Ao retirar a força de poder, a quarta habilidade da Nova faz com que os inimigos movam-se mais rapidamente, acelerando o ritmo da missão. \n https://i.imgur.com/aadMS6z.jpg")
         
     if message.content.upper().startswith ("!WISP"):
-        await client.send_message(message.channel, "Build com foco no farm de Cetus Wisp nas planícies, prezando por uma boa movimentação em campo aberto. \n https://i.imgur.com/qSVXHhh.jpg")
+        await client.send_message(message.channel, "Build da Nova com foco no farm de Cetus Wisp nas planícies, prezando por uma boa movimentação em campo aberto. \n https://i.imgur.com/qSVXHhh.jpg")
 
     if message.content.upper() == "!BUILD NYX":
         await client.send_message(message.channel, "Build da Nyx com o equilíbrio perfeito entre todas as suas habilidades. \n https://i.imgur.com/FeVJzdA.jpg")
