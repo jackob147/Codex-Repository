@@ -1290,7 +1290,7 @@ async def on_message(message):
         await client.send_message(message.channel, "Build da Octavia que causará alto dano com o Mallet e ainda o manterá invisível por um longo período. \n https://i.imgur.com/wgCuPNa.jpg")
 
     if message.content.upper() == "!BUILD REVENANT":
-        await client.send_message(message.channel, "Build do Revenant com altíssima eficiência em sua ultimate, enquanto causa uma grande quantidade dano e anula o dano recebido com a segunda habilidade. Você poderá trocar os mods Intensify e Vitality por suas versões Umbral. \n https://i.imgur.com/knl3raF.jpg")
+        await client.send_message(message.channel, "Build do Revenant com altíssima eficiência em sua ultimate, enquanto causa uma grande quantidade de dano e anula o dano recebido com sua segunda habilidade. Você poderá trocar os mods Intensify e Vitality por suas versões Umbral. \n https://i.imgur.com/knl3raF.jpg")
 
     if "!BUILD OBERON" in message.content.upper():
         await client.send_message(message.channel, "Build do Oberon com um alto sustain para todo o esquadrão, enquanto inflige alto dano nos inimigos. \n https://i.imgur.com/YdaFukQ.jpg")
