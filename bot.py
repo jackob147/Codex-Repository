@@ -318,7 +318,7 @@ async def on_message(message):
         await client.send_message(message.channel, "O diagrama da Gara é obtido na jornada Vigília de Saya, e seus componentes nas caçadas das Planíces de Eidolon. \n https://www.youtube.com/watch?v=UM0KhiQVOa0&list=PLDmrv5FhAWj_VzURMqylYnfxlRWvtLspv&index=1")
 
     if "!REVENANT" in message.content.upper():
-        await client.send_message(message.channel, "O diagrama do Revenant é obtido ao completar a jornada de Nakak, que é desbloqueada ao atingir nível 2 com Os Quills e comprar a máscara que muito lembra o Revenant com a Nakak. Seus componentes dropam em Caçadas de Cetus. \n https://www.youtube.com/watch?v=dhB39g1jS6E")
+        await client.send_message(message.channel, "O diagrama do Revenant é obtido ao completar a jornada de Nakak, que é desbloqueada ao atingir nível 2 com Os Quills e comprar a máscara que muito lembra o Revenant, com a Nakak. Os diagramas de seus componentes dropam em Caçadas de Cetus. \n https://www.youtube.com/watch?v=dhB39g1jS6E")
 
     if "!HARROW" in message.content.upper():
         await client.send_message(message.channel, "O diagrama do Harrow é obtido na Quest Correntes de Harrow, o Chassi cai de inimigos em fendas do Void, os sistemas na Rotação C de Deserção, e o neurovisor em Pago, na Fortaleza Kuva. \n https://www.youtube.com/watch?v=p2HXpeUh2QY&list=PLDmrv5FhAWj_VzURMqylYnfxlRWvtLspv&index=4")
