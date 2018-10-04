@@ -1104,13 +1104,13 @@ async def on_message(message):
         await client.send_message(message.channel, "Há três builds disponíveis para a Trinity, especifique a sua escolha. \n !EV (Energy Vampire) \n !BLESS (Blessing) \n !NUKE (Dano)")
         
     if message.content.upper().startswith ("!EV"):
-        await client.send_message(message.channel, "Build focada na restauração de energia com a segunda skill. \n https://i.imgur.com/qTL8SRR.png")
+        await client.send_message(message.channel, "Build da Trinity focada na restauração de energia com a segunda skill. \n https://i.imgur.com/N5ZojxA.png")
 
     if message.content.upper().startswith ("!BLESS"):
-        await client.send_message(message.channel, "Build focada na proteção do esquadrão com a ultimate Blessing. \n https://i.imgur.com/SZ5wzlP.png")
+        await client.send_message(message.channel, "Build da Trinity com alta capacidade de tank e proteção do esquadrão. \n https://i.imgur.com/twtZEOF.png")
         
     if message.content.upper().startswith ("!NUKE"):
-        await client.send_message(message.channel, "Build feita para matar inimigos usando o proc de radiação de suas Castanas + Link. \n https://i.imgur.com/EsB5hSx.png")        
+        await client.send_message(message.channel, "Build da Trinity feita para matar inimigos usando o proc de radiação de suas Castanas + Link. \n https://i.imgur.com/EsB5hSx.png")        
 
     if message.content.upper() == "oiqnweioqnasd":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181141340225537/TRINITY_BLESSING.png")
@@ -1119,7 +1119,7 @@ async def on_message(message):
         await client.send_message(message.channel, "Há duas builds disponíveis para o Ash Prime, especifique a sua escolha. \n !BLADE \n !SMOKE")
         
     if message.content.upper().startswith ("!SMOKE"):
-        await client.send_message(message.channel, "Build do Ash focada em Duração. \n https://i.imgur.com/iPTWEHX.png")
+        await client.send_message(message.channel, "Build do Ash focada na invisibilidade fornecida por sua segunda habilidade. \n https://i.imgur.com/iPTWEHX.png")
         
 
     if message.content.upper().startswith ("!BLADE"):
@@ -1129,14 +1129,17 @@ async def on_message(message):
         await client.send_message(message.channel, "Build do Atlas com foco na primeira habilidade com alto dano e seu aumento de armadura e cura concedida ao matar inimigos petrificados. \n https://i.imgur.com/FmDt1E8.jpg")
  
     if "!BUILD BANSHEE" in message.content.upper():
-        await client.send_message(message.channel, "Há duas builds disponíveis para a Banshee, especifique a sua escolha. \n !SAVAGE \n !SOUNDQUAKE")
+        await client.send_message(message.channel, "Há três builds disponíveis para a Banshee, especifique a sua escolha. \n !SAVAGE \n !SOUNDQUAKE \n !RESONANCE")
 
     
     if message.content.upper().startswith ("!SAVAGE"):
-        await client.send_message(message.channel, "Build da Banshee perfeita para espionagens, girando em torno do Savage Silence. \n https://i.imgur.com/5PfhHVj.png")
+        await client.send_message(message.channel, "Build da Banshee perfeita para quem prefere uma abordagem mais sutil e mortal. \n https://i.imgur.com/vfKWTwm.png")
+
+    if message.content.upper().startswith ("!RESONANCE"):
+        await client.send_message(message.channel, "Build da Banshee focada no multiplicador de dano concedido pela segunda habilidade. \n https://i.imgur.com/rB1fQGR.png")
 
     if message.content.upper().startswith ("!SOUNDQUAKE"):
-        await client.send_message(message.channel, "Esta build da Banshee preza pelo controle de grupo, com o máximo de alcance possível. \n https://i.imgur.com/DlvddpX.png")
+        await client.send_message(message.channel, "Esta build da Banshee que permite o uso da quarta habilidade por um longo período de tempo, enquanto causa uma quantidade moderada de dano. \n https://i.imgur.com/NHDbNsT.png")
      
     if message.content.upper() == "!BUILD CHROMA":
         await client.send_message(message.channel, "Build do Chroma utilizando a energia de gelo, para se tornar um ótimo tank. \n https://i.imgur.com/YVHw1Kx.jpg")
@@ -1212,7 +1215,7 @@ async def on_message(message):
         await client.send_message(message.channel, "Build para o arco Artemis da Ivara com um alto dano crítico que combará com o debuff do efeito viral. \n https://i.imgur.com/9ElsJMO.jpg")
 
     if message.content.upper().startswith ("!INFILTRATE"):
-        await client.send_message(message.channel, "Build da Ivara perfeita para missões de espionagens, onde a Ampliação Infiltrate da terceira habilidade irá te ajudar muito. \n https://i.imgur.com/eswRf7t.jpg")  
+        await client.send_message(message.channel, "Build da Ivara perfeita para missões de espionagens, onde a Ampliação Infiltrate da terceira habilidade irá te ajudar muito. https://i.imgur.com/mECFWnM.png")  
 
     if message.content.upper().startswith ("!ARTEMIS"):
         await client.send_message(message.channel, "Build da Ivara que te permitirá causar uma boa quantidade de dano com o Artemis Bow e com um baixo custo de energia por segundo/tiro. \n https://i.imgur.com/IF8xfH7.jpg")
@@ -1362,7 +1365,7 @@ async def on_message(message):
         await client.send_message(message.channel, "Build do Wukong que te manterá vivo por muito tempo até que o limite de mortes evitadas por Defy seja alcançado, enquanto mantém um baixo custo de energia para o Primal Fury e Cloud Walker. \n https://i.imgur.com/F8fB5SO.jpg")
 
     if message.content.upper() == "!BUILD IRON STAFF":
-        await client.send_message(message.channel, "Build para o Bastão Exalted do Wukong com alto dano corrosivo multiplicado pelo Condition Overload e alto dano crítico")
+        await client.send_message(message.channel, "Build para o Bastão Exalted do Wukong com alto dano corrosivo multiplicado pelo Condition Overload e alto dano crítico. \n https://i.imgur.com/ms2LQbU.jpg")
         
     if "!BUILD ZEPHYR" in message.content.upper():
         await client.send_message(message.channel, "Há duas build disponíveis para a Zephyr, especifique a sua escolha. \n !ESCUDO \n !TORNADO")
