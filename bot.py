@@ -1256,10 +1256,10 @@ async def on_message(message):
     if message.content.upper() == "!BUILD MESA":
         await client.send_message(message.channel, "Build da Mesa que mantém um baixo custo na quarta habilidade sem tirar a duração necessária da terceira habilidade. \n https://i.imgur.com/2ecRuyg.jpg")
 
-    if message.content.upper() == "!BUILD NEKROS":
+    if "!BUILD NEKROS" in message.content.upper():
         await client.send_message(message.channel, "Build do Nekros projetada para manter sempre a terceira habilidade ativa usando o mod de Ampliação Despoil e alta eficiência com um raio gigantesco. \n https://i.imgur.com/0BiX2nK.jpg")
 
-    if message.content.upper() == "!BUILD MIRAGE":
+    if "!BUILD MIRAGE" in message.content.upper():
         await client.send_message(message.channel, "Há duas builds disponíveis para a Mirage, especifique a sua escolha. \n !CLONES \n !CEGUEIRA")
 
     if message.content.upper().startswith ("!CLONES"):
@@ -1299,7 +1299,7 @@ async def on_message(message):
         await client.send_message(message.channel, "Build do Oberon com um alto sustain para todo o esquadrão, enquanto inflige alto dano nos inimigos. \n https://i.imgur.com/YdaFukQ.jpg")
 
     if "!BUILD RHINO" in message.content.upper():
-        await client.send_message(message.channel, "Há três build disponíveis para o Rhino, especifique a sua escolha. \n !TANK \n !SUP \n !STOMP")
+        await client.send_message(message.channel, "Há três builds disponíveis para o Rhino, especifique a sua escolha. \n !TANK \n !SUP \n !STOMP")
 
     if message.content.upper().startswith ("!TANK"):
         await client.send_message(message.channel, "Build do Rhino com o foco na segunda habilidade, prevenindo uma grande quantidade de dano. \n https://i.imgur.com/dzbtaxc.jpg")
@@ -1379,26 +1379,31 @@ async def on_message(message):
     if message.content.upper() == "!BUILD":
         await client.send_message(message.channel, "Por favor, especifique o Warframe ou arma. Perceba que algumas builds de armas ainda não foram adicionadas.")
 
-    if message.content.upper() == "!BUILD NIKANA":
-        await client.send_message(message.channel, "https://i.imgur.com/V8avqTe.jpg")
 
-    if message.content.upper() == "!BUILD NIKANA PRIME":
-        await client.send_message(message.channel, "https://i.imgur.com/V8avqTe.jpg")
+    if "!BUILD NIKANA" in message.content.upper():
+        await client.send_message(message.channel, "Há duas builds disponíveis para a Nikana Prime, especifique a sua escolha. \n !NIKANA CRÍTICO \n !NIKANA STATUS")
 
-    if message.content.upper() == "!BUILD AKSTILETTO PRIME":
-        await client.send_message(message.channel, "Build com foco em dano de status multiplicado pelo dano crítico. \n https://i.imgur.com/b5SBlP7.png")
+    if message.content.upper().startswith ("!NIKANA CRÍTICO"):
+        await client.send_message(message.channel, "Build da Nikana Prime focada em seu alto dano crítico. \n https://i.imgur.com/ibrqVtG.png")
 
-    if message.content.upper() == "!BUILD AKSTILETTO":
-        await client.send_message(message.channel, "Build com foco em dano de status multiplicado pelo dano crítico. \n https://i.imgur.com/b5SBlP7.png")
+    if message.content.upper().startswith ("!NIKANA CRITICO"):
+        await client.send_message(message.channel, "Build da Nikana Prime focada em seu alto dano crítico. \n https://i.imgur.com/ibrqVtG.png")  
+
+    if message.content.upper().startswith ("!NIKANA STATUS"):
+        await client.send_message(message.channel, "Build da Nikana Prime com alto dano corrosivo. \n https://i.imgur.com/KXT7qRc.png")
+
+    if "!BUILD AKSTILETTO" in message.content.upper():
+        await client.send_message(message.channel, "Build com foco em dano de status corrosivo multiplicado pelo dano crítico. \n https://i.imgur.com/b5SBlP7.png")
+
 
     if message.content.upper() == "!BUILD DUAL TOXOCYST":
-        await client.send_message(message.channel, "https://i.imgur.com/A29IkUX.jpg")
+        await client.send_message(message.channel, "Build da Dual Toxocyst com uma enorme quantidade de dano corrosivo. \n https://i.imgur.com/DBG1B55.png")
 
     if "!BUILD SOMA" in message.content.upper():
         await client.send_message(message.channel, "Build da Soma Prime com alto dano crítico corrosivo. \n https://i.imgur.com/0cCvb2v.png")
 
     if "!BUILD ARCA PLASMOR" in message.content.upper():
-        await client.send_message(message.channel, "Build para a Arca Plasmor focada em dano crítico. \n https://i.imgur.com/elTUR89.png")
+        await client.send_message(message.channel, "Build para a Arca Plasmor com alto dano corrosivo e radioativo. \n https://i.imgur.com/Mdo4rh1.png")
 
     if "!BUILD CARRIER" in message.content.upper():
         await client.send_message(message.channel, "Há duas builds disponíveis para o Carrier, especifique a sua escolha. \n !VACUUM \n !STRIKER")
