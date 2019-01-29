@@ -1115,7 +1115,7 @@ async def on_message(message):
     if message.content.upper() == "oiqnweioqnasd":
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/414179520984121345/414181141340225537/TRINITY_BLESSING.png")
 
-    if message.content.upper() == "!BUILD ASH":
+    if message.content.upper().startswith ("!BUILD ASH"):
         await client.send_message(message.channel, "Há duas builds disponíveis para o Ash Prime, especifique a sua escolha. \n !BLADE \n !SMOKE")
         
     if message.content.upper().startswith ("!SMOKE"):
