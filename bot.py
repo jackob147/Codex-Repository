@@ -1399,7 +1399,7 @@ async def on_message(message):
         await client.send_message(message.channel, "Build da Nikana Prime com alto dano corrosivo. \n https://i.imgur.com/KXT7qRc.png")
 
     if "!BUILD AKSTILETTO" in message.content.upper():
-        await client.send_message(message.channel, "Build com foco em dano de status corrosivo multiplicado pelo dano crítico. \n https://i.imgur.com/b5SBlP7.png")
+        await client.send_message(message.channel, "Build da Akstiletto Prime com foco em dano de status corrosivo multiplicado pelo dano crítico. \n https://i.imgur.com/b5SBlP7.png")
 
 
     if message.content.upper() == "!BUILD DUAL TOXOCYST":
@@ -1409,7 +1409,7 @@ async def on_message(message):
         await client.send_message(message.channel, "Build da Soma Prime com alto dano crítico corrosivo. \n https://i.imgur.com/0cCvb2v.png")
 
     if "!BUILD ARCA PLASMOR" in message.content.upper():
-        await client.send_message(message.channel, "Build para a Arca Plasmor com alto dano corrosivo e radioativo. \n https://i.imgur.com/Mdo4rh1.png")
+        await client.send_message(message.channel, "Build para a Arca Plasmor com alto dano corrosivo e radioativo. \n https://i.imgur.com/rcJvdlN.png")
 
     if "!BUILD CARRIER" in message.content.upper():
         await client.send_message(message.channel, "Há duas builds disponíveis para o Carrier, especifique a sua escolha. \n !VACUUM \n !STRIKER")
@@ -1439,7 +1439,7 @@ async def on_message(message):
         await client.send_message(message.channel, "Build com grande dano de status e crítico para a Ballistica Prime. \n https://i.imgur.com/1oFkLeR.png")
         
     if message.content.upper() == "!BUILD BAZA":
-        await client.send_message(message.channel, "Build crítica para a Baza, com procs de corte combinado com do debuff do proc de Viral. \n https://i.imgur.com/NNmoz0w.png")
+        await client.send_message(message.channel, "Build crítica para a Baza, que combina sua alta chance crítica com um alto dano corrosivo. \n https://i.imgur.com/Tg4gEPA.png")
         
     if message.content.upper() == "!BUILD BOLTOR PRIME":
         await client.send_message(message.channel, "Build de status para a Boltor Prime. O thermite rounds pode ser trocado com o Vigilant Armaments, mas precisará de mais uma forma. \n https://i.imgur.com/jb0gt47.png")
@@ -1454,9 +1454,9 @@ async def on_message(message):
         await client.send_message(message.channel, "Build de Status para a Braton Prime. \n https://i.imgur.com/Xt6jbqg.png")
                                   
     if message.content.upper() == "!BUILD BROKEN WAR":
-        await client.send_message(message.channel, "Build para a Broken War com bastante velocidade de ataque e status. \n https://i.imgur.com/Y8Vy6lG.png")
+        await client.send_message(message.channel, "Build para a Broken War com bastante velocidade de ataque e alto dano de status. \n https://i.imgur.com/diVVLwm.png")
         
-    if message.content.upper() == "!BUILD EUPHONA":
+    if message.content.upper().startswith ("!BUILD EUPHONA"):
         await client.send_message(message.channel, "Há duas builds disponíveis para a Euponha, especifique a sua escolha. \n !EUPHONA EIDOLON \n !EUPHONA CRÍTICO")
                                   
     if message.content.upper().startswith ("!EUPHONA EIDOLON"):
@@ -1496,13 +1496,19 @@ async def on_message(message):
         await client.send_message(message.channel, "As partes do Warframe Khora dropam no Massacre do Santuário Normal. \n https://www.youtube.com/watch?v=jaK6cZk-Ris")
 
     if message.content.upper() == "!BUILD OPTICOR":
-        await client.send_message(message.channel, "Build da Opticor com duas formas com um alto dano de perfuração e radiação. \n https://i.imgur.com/3HbXAZg.jpg")
+        await client.send_message(message.channel, "Há duas builds disponíveis para a Opticor, especifique a sua escolha. \n !OPTICOR CORROSIVO \n !OPTICOR RADIAÇÃO")
+
+    if message.content.upper().startswith ("!OPTICOR CORROSIVO"):
+        await client.send_message(message.channel, "Build de dano corrosivo para a Opticor. \n https://i.imgur.com/VVzPyBW.png")
+
+    if message.content.upper().startswith ("!OPTICOR RADIAÇÃO"):
+        await client.send_message(message.channel, "Build de dano radioativo para a Opticor. \n https://i.imgur.com/ou5f1Vp.png")
 
     if "!BUILD GLAIVE" in message.content.upper():
         await client.send_message(message.channel, "Build da Glaive Prime com foco em dano de status elemental e primário. \n https://i.imgur.com/v0XzeKo.jpg")
         
     if "!BUILD GALATINE" in message.content.upper():
-        await client.send_message(message.channel, "Build da Galatine Prime com uma grande quantidade de dano corrosivo e alta velocidade de ataque. \n https://i.imgur.com/Ftbk2qJ.jpg")
+        await client.send_message(message.channel, "Build da Galatine Prime com uma grande quantidade de dano corrosivo e alta velocidade de ataque. \n https://i.imgur.com/QhX0jji.png")
         
     if message.content.upper() == "!BUILD SUPRA":
         await client.send_message(message.channel, "Build da Supra Vandal com uma alta chance de proc de status multiplicado por sua incrível taxa de disparo. \n https://i.imgur.com/bYjlsNm.jpg")
@@ -1537,8 +1543,245 @@ async def on_message(message):
     if message.content.upper() == "!BUILD BALLISTICA":
         await client.send_message(message.channel, "Temos Builds para a Rakta Ballistica e Ballistica Prime. Por favor, especifique a sua escolha. \n !BUILD RAKTA BALLISTICA \n !BUILD BALLISTICA PRIME")
 
-    if message.content.upper() == "!BUILD ORTHOS PRIME":
-        await client.send_message(message.channel, "Build para a Orthos Prime com um equilíbrio entre alto dano elemental e crítico. \n https://i.imgur.com/ZvcQ5el.jpg")
+
+    if message.content.upper() == "!BUILD AMPREX":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD KRONEN":
+        await client.send_message(message.channel, "Há duas builds disponíveis para a Kronen Prime, especifique a sua escolha. \n !KRONEN STATUS \n !KRONEN MAIMING")
+
+    if message.content.upper() == "!BUILD KRONEN PRIME":
+        await client.send_message(message.channel, "Há duas builds disponíveis para a Kronen Prime, especifique a sua escolha. \n !KRONEN STATUS \n !KRONEN MAIMING")
+
+    if message.content.upper().startswith ("!KRONEN STATUS"):
+        await client.send_message(message.channel, "Build de dano corrosivo para a Kronen Prime. \n https://i.imgur.com/VovYhMc.png")
+
+    if message.content.upper().startswith ("!KRONEN MAIMING"):
+        await client.send_message(message.channel, "Build de ataques deslizantes para a Kronen Prime. \n https://i.imgur.com/J8CpSW6.png")
+
+    if message.content.upper() == "!BUILD PARACESIS":
+        await client.send_message(message.channel, "Build para a Paracesis com alto dano viral crítico. \n https://i.imgur.com/KAaobMV.png")
+
+    if message.content.upper().startswith ("!BUILD AKBOLTO"):
+        await client.send_message(message.channel, "Build para a Akbolto Prime com um alto dano corrosivo crítico. \n https://i.imgur.com/xlVm9Tm.png")
+
+    if message.content.upper().startswith ("!BUILD DESTREZA"):
+        await client.send_message(message.channel, "Build para a Destreza Prime para proc viral crítico. \n https://i.imgur.com/D8RVTu9.png")
+
+    if message.content.upper().startswith ("!BUILD LATO"):
+        await client.send_message(message.channel, "Build para a Lato Vandal com um alto dano corrosivo crítico. \n https://i.imgur.com/cQQj6Hu.png")
+
+    if message.content.upper() == "!BUILD LESION":
+        await client.send_message(message.channel, "Build para a Lesion com foco em ataques deslizantes. \n https://i.imgur.com/gNjsoKh.png")
+
+    if message.content.upper() == "!BUILD SYDON":
+        await client.send_message(message.channel, "Build da Vaykor Sydon para ataques deslizantes . \n https://i.imgur.com/u9jn3Ib.png")
+
+    if message.content.upper() == "!BUILD VAYKOR SYDON":
+        await client.send_message(message.channel, "Build da Vaykor Sydon para ataques deslizantes . \n https://i.imgur.com/u9jn3Ib.png")
+
+    if message.content.upper() == "!BUILD SKIAJATI":
+        await client.send_message(message.channel, "Build da Skiajati com foco em dano viral crítico. \n https://i.imgur.com/WGVjzqi.png")
+
+    if message.content.upper() == "!BUILD LECTA":
+        await client.send_message(message.channel, "Build da Secura Lecta para ataques deslizantes. \n https://i.imgur.com/8pJ2piP.png")
+
+    if message.content.upper() == "!BUILD SECURA LECTA":
+        await client.send_message(message.channel, "Build da Secura Lecta para ataques deslizantes. \n https://i.imgur.com/8pJ2piP.png")
+
+    if message.content.upper().startswith ("!BUILD ORTHOS"):
+        await client.send_message(message.channel, "Há três builds disponíveis para a Orthos prime, sendo todas para ataques deslizantes, especifique a sua escolha. \n !ORTHOS VIRAL \n !ORTHOS CORROSIVO \n !ORTHOS GÁS")
+
+    if message.content.upper() == "!ORTHOS CORROSIVO":
+        await client.send_message(message.channel, "Build para a Orthos Prime perfeita contra grineers. \n https://i.imgur.com/MJAdB0z.png")
+
+    if message.content.upper() == "!ORTHOS VIRAL":
+        await client.send_message(message.channel, "Build para a Orthos Prime perfeita contra infestados. \n https://i.imgur.com/6CG5fXD.png")
+
+    if message.content.upper() == "!ORTHOS GÁS":
+        await client.send_message(message.channel, "Build para a Orthos Prime perfeita contra corpus. \n https://i.imgur.com/oxcpadk.png")
+
+    if message.content.upper().startswith ("!BUILD PYRANA"):
+        await client.send_message(message.channel, "Build para a Pyrana Prime com enorme dano corrosivo e de corte. \n https://i.imgur.com/pGSHSGY.png")
+
+    if message.content.upper().startswith ("!BUILD SCOLIAC"):
+        await client.send_message(message.channel, "Há três builds disponíveis para a Orthos prime, sendo todas para ataques deslizantes, especifique a sua escolha. \n !SCOLIAC VIRAL \n !SCOLIAC CORROSIVO \n !SCOLIAC GÁS")
+
+    if message.content.upper() == "!SCOLIAC CORROSIVO":
+        await client.send_message(message.channel, "Build para a Scoliac perfeita contra grineers. \n https://i.imgur.com/ZhKqR6j.png")
+
+    if message.content.upper() == "!SCOLIAC VIRAL":
+        await client.send_message(message.channel, "Build para a Scoliac perfeita contra infestados. \n https://i.imgur.com/GbAJNKM.png")
+
+    if message.content.upper() == "!SCOLIAC GÁS":
+        await client.send_message(message.channel, "Build para a Scoliac perfeita contra corpus. \n https://i.imgur.com/fohVSNF.png")
+
+    if message.content.upper().startswith ("!BUILD SICARUS"):
+        await client.send_message(message.channel, "Build para a Sicarus Prime com uma massiva quantidade de dano corrosivo crítico. \n https://i.imgur.com/z4ZlHle.png")
+
+    if message.content.upper().startswith ("!BUILD TIGRIS"):
+        await client.send_message(message.channel, "Build da Tigris Prime para alto dano viral e radioativo. \n https://i.imgur.com/IQiT0va.png")
+
+    if message.content.upper() == "!BUILD CORINTH":
+        await client.send_message(message.channel, "Há duas builds disponíveis para a Corinth, especifique a sua escolha. \n !CORINTH VIRAL \n !CORINTH CORROSIVO")
+
+    if message.content.upper() == "!CORINTH VIRAL":
+        await client.send_message(message.channel, "Build de dano viral para a Corinth. \n https://i.imgur.com/Eh4S1Qh.png")
+
+    if message.content.upper() == "!CORINTH CORROSIVO":
+        await client.send_message(message.channel, "Build de dano corrosivo para a Corinth. \n hhttps://i.imgur.com/BF5qEuE.png")
+
+    if message.content.upper() == "!BUILD ASTILLA":
+        await client.send_message(message.channel, "Build da Astilla com alto dano corrosivo, e contando ainda com o proc de explosão. \n https://i.imgur.com/KkkOf9t.png")
+
+    if message.content.upper() == "!BUILD DUAL CESTRA":
+        await client.send_message(message.channel, "Build para a Secura Dual Cestra com uma incrível quantidade de dano corrosivo multiplicado por sua alta taxa de disparo. \n https://i.imgur.com/fH9tzV4.png")
+
+    if message.content.upper() == "!BUILD SECURA DUAL CESTRA":
+        await client.send_message(message.channel, "Build para a Secura Dual Cestra com uma incrível quantidade de dano corrosivo multiplicado por sua alta taxa de disparo. \n https://i.imgur.com/fH9tzV4.png")
+
+    if message.content.upper().startswith ("!BUILD VENKA"):
+        await client.send_message(message.channel, "Build para a Venka Prime focada em dano viral crítico. \n https://i.imgur.com/UYpOxxJ.png")
+
+    if message.content.upper().startswith ("!BUILD SILVA"):
+        await client.send_message(message.channel, "Build da Silva e Aegis Prime com foco no dano corrosivo e o efeito de crowd control do dano de fogo. \n https://i.imgur.com/48qb7MG.png")
+
+    if message.content.upper().startswith ("!BUILD NAMI"):
+        await client.send_message(message.channel, "Build para a Nami Skyla Prime com alto dano viral. \n https://i.imgur.com/eLfpDnb.png")
+
+    if message.content.upper() == "!BUILD WAR":
+        await client.send_message(message.channel, "Build da War com alto dano corrosivo crítico e alta velocidade de ataque. \n https://i.imgur.com/9pVNlRx.png")
+
+    if message.content.upper().startswith ("!BUILD GRAM"):
+        await client.send_message(message.channel, "Build para a Gram Prime com um massivo dano viral em uma grande área. \n https://i.imgur.com/mPZ9pUh.png")
+
+    if message.content.upper() == "!BUILD 15":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 16":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 17":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 18":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 19":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 19":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 20":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 21":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 22":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 23":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 24":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 25":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 26":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 27":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 28":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 29":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 30":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 31":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 32":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 33":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 34":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 35":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 36":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 37":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 38":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 39":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 40":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 41":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 42":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 43":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 43":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 44":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 45":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 46":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 47":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 48":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 49":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 50":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 51":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 52":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 53":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+    if message.content.upper() == "!BUILD 54":
+        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+
+
         
 
 
