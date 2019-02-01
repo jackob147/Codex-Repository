@@ -1201,7 +1201,7 @@ async def on_message(message):
     if message.content.upper().startswith ("!GERAL"):
         await client.send_message(message.channel, "Build do Harrow feita para missões diversas do Sistema. \n https://i.imgur.com/F0whvMu.jpg")  
 
-    if message.content.upper().startswith ("!EIDOLON"):
+    if message.content.upper() == "!EIDOLON":
         await client.send_message(message.channel, "Build do Harrow ideal para Caçadas de Eidolons. \n https://i.imgur.com/XoThyC4.jpg")      
         
 
