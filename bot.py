@@ -1148,12 +1148,12 @@ async def on_message(message):
         await client.send_message(message.channel, "Esta build da Banshee que permite o uso da quarta habilidade por um longo período de tempo, enquanto causa uma quantidade moderada de dano. \n https://i.imgur.com/NHDbNsT.png")
      
     if message.content.upper().startswith ("!BUILD CHROMA"):
-        await client.send_message(message.channel, "Há duas builds disponíveis para o Chroma Prime, especifique a sua escolha. \n !CHROMA EIDOLON \n !CHROMA ARANHA")
+        await client.send_message(message.channel, "Há duas builds disponíveis para o Chroma Prime, especifique a sua escolha. \n !EIDOLON CHROMA\n !ARANHA CHROMA")
 
-    if message.content.upper().startswith ("!CHROMA ARANHA"):
+    if message.content.upper().startswith ("!ARANHA CHROMA"):
         await client.send_message(message.channel, "Build do Chroma Prime perfeita para combater a Beneficiária. Aqui você poderá trocar o arcane Barrier pelo Grace. Energia pode ser de gelo ou fogo. \n https://i.imgur.com/us8ErKs.png")  
 
-    if message.content.upper().startswith ("!CHROMA EIDOLON"):
+    if message.content.upper().startswith ("!EIDOLON CHROMA"):
         await client.send_message(message.channel, "Build do Chroma Prime ideal para Caçadas de Eidolons ou missões em geral. Energia pode ser de gelo ou fogo. \n https://i.imgur.com/X6zAvsW.png")      
     
     if "!BUILD EMBER" in message.content.upper():
