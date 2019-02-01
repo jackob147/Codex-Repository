@@ -272,7 +272,7 @@ async def on_message(message):
     if "!VAUBAN" in message.content.upper():
         await client.send_message(message.channel, "As partes do Warframe Vauban podem ser conseguidas exclusivamente em Alertas. \n https://www.youtube.com/watch?v=t6NzJewz82A&index=4&list=PLcHK4Prg02jdfwmrYZPG_RVGTyT2RYVPF")
 
-    if "!CHROMA" in message.content.upper():
+    if message.content.upper().startswith ("!CHROMA"):
         await client.send_message(message.channel, "O diagrama do Warframe Chroma é obtido ao concluir a jornada O Novo Estranho, e suas partes estão espalhadas pelos Terminais de Urano, Netuno e Plutão. \n https://www.youtube.com/watch?v=hPEFL0b1Drg&index=22&list=PLcHK4Prg02jdfwmrYZPG_RVGTyT2RYVPF")
 
     if "!LIMBO" in message.content.upper():
