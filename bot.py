@@ -260,7 +260,7 @@ async def on_message(message):
     if "!NYX" in message.content.upper():
         await client.send_message(message.channel, "As partes do Warframe Nyx dropam do inimigo Phorid, durante uma invasão infestada. \n https://www.youtube.com/watch?v=49ONrX1Xzl0&index=20&list=PLcHK4Prg02jdfwmrYZPG_RVGTyT2RYVPF")
 
-    if "!BARUUK" in message.content.upper():
+    if message.content.upper() == "!BARUUK":
         await client.send_message(message.channel, "As partes e o diagrama principal do Warframe Baruuk podem ser compradas com a Little Duck, usando pontos Vox Solaris, em Fortuna. \n https://www.youtube.com/watch?v=If4hJNAf_AE&feature=youtu.be&list=PLDmrv5FhAWj_VzURMqylYnfxlRWvtLspv")
 
     if "!GARUDA" in message.content.upper():
