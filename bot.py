@@ -272,7 +272,7 @@ async def on_message(message):
     if "!VAUBAN" in message.content.upper():
         await client.send_message(message.channel, "As partes do Warframe Vauban podem ser conseguidas exclusivamente em Alertas. \n https://www.youtube.com/watch?v=t6NzJewz82A&index=4&list=PLcHK4Prg02jdfwmrYZPG_RVGTyT2RYVPF")
 
-    if message.content.upper().startswith ("!CHROMA"):
+    if message.content.upper() == "!CHROMA":
         await client.send_message(message.channel, "O diagrama do Warframe Chroma é obtido ao concluir a jornada O Novo Estranho, e suas partes estão espalhadas pelos Terminais de Urano, Netuno e Plutão. \n https://www.youtube.com/watch?v=hPEFL0b1Drg&index=22&list=PLcHK4Prg02jdfwmrYZPG_RVGTyT2RYVPF")
 
     if "!LIMBO" in message.content.upper():
@@ -1148,12 +1148,12 @@ async def on_message(message):
         await client.send_message(message.channel, "Esta build da Banshee que permite o uso da quarta habilidade por um longo período de tempo, enquanto causa uma quantidade moderada de dano. \n https://i.imgur.com/NHDbNsT.png")
      
     if message.content.upper().startswith ("!BUILD CHROMA"):
-        await client.send_message(message.channel, "Há duas builds disponíveis para o Chroma Prime, especifique a sua escolha. \n !EIDOLON CHROMA\n !ARANHA CHROMA")
+        await client.send_message(message.channel, "Há duas builds disponíveis para o Chroma Prime, especifique a sua escolha. \n !CHROMA EIDOLON \n !CHROMA ARANHA")
 
-    if message.content.upper().startswith ("!ARANHA CHROMA"):
+    if message.content.upper().startswith ("!CHROMA ARANHA"):
         await client.send_message(message.channel, "Build do Chroma Prime perfeita para combater a Beneficiária. Aqui você poderá trocar o arcane Barrier pelo Grace. Energia pode ser de gelo ou fogo. \n https://i.imgur.com/us8ErKs.png")  
 
-    if message.content.upper().startswith ("!EIDOLON CHROMA"):
+    if message.content.upper().startswith ("!CHROMA EIDOLON"):
         await client.send_message(message.channel, "Build do Chroma Prime ideal para Caçadas de Eidolons ou missões em geral. Energia pode ser de gelo ou fogo. \n https://i.imgur.com/X6zAvsW.png")      
     
     if "!BUILD EMBER" in message.content.upper():
