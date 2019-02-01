@@ -1147,8 +1147,14 @@ async def on_message(message):
     if message.content.upper().startswith ("!SOUNDQUAKE"):
         await client.send_message(message.channel, "Esta build da Banshee que permite o uso da quarta habilidade por um longo período de tempo, enquanto causa uma quantidade moderada de dano. \n https://i.imgur.com/NHDbNsT.png")
      
-    if message.content.upper() == "!BUILD CHROMA":
-        await client.send_message(message.channel, "Build do Chroma utilizando a energia de gelo, para se tornar um ótimo tank. \n https://i.imgur.com/YVHw1Kx.jpg")
+    if message.content.upper().startswith ("!BUILD CHROMA"):
+        await client.send_message(message.channel, "Há duas builds disponíveis para o Chroma Prime, especifique a sua escolha. \n !EIDOLON \n !ARANHA")
+
+    if message.content.upper().startswith ("!ARANHA"):
+        await client.send_message(message.channel, "Build do Chroma Prime perfeita para combater a Beneficiária. Aqui você poderá trocar o arcane Barrier pelo Grace. Energia pode ser de gelo ou fogo. \n https://i.imgur.com/us8ErKs.png")  
+
+    if message.content.upper().startswith ("!EIDOLON"):
+        await client.send_message(message.channel, "Build do Chroma Prime ideal para Caçadas de Eidolons ou missões em geral. Energia pode ser de gelo ou fogo. \n https://i.imgur.com/X6zAvsW.png")      
     
     if "!BUILD EMBER" in message.content.upper():
         await client.send_message(message.channel, "Build da Ember Prime que manterá sua quarta habilidade sempre ativa e com um baixo custo para o seu aumento de dano da segunda habilidade. \n https://i.imgur.com/xldp709.jpg")
@@ -1231,7 +1237,7 @@ async def on_message(message):
  
 
     if "!BUILD LIMBO" in message.content.upper():
-        await client.send_message(message.channel, "Há duas builds disponíveis para o Limbo, especifique a sua escolha. \n !DURAÇÃO \n !ALCANCE")
+        await client.send_message(message.channel, "Há duas builds disponíveis para o Limbo Prime, especifique a sua escolha. \n !DURAÇÃO \n !ALCANCE")
 
     if message.content.upper().startswith ("!ALCANCE"):
         await client.send_message(message.channel, "Build do Limbo para controle em grande escala. \n https://i.imgur.com/Yu3PWif.jpg")
@@ -1259,8 +1265,8 @@ async def on_message(message):
     if "!BUILD MAG" in message.content.upper():
         await client.send_message(message.channel, "Build da Mag com o equilíbrio perfeito entre todas as habilidades, contando com o mod de Ampliação Counter Pulse para manter o controle sobre os inimigos. \n https://i.imgur.com/zX7E3pf.jpg")
 
-    if message.content.upper() == "!BUILD MESA":
-        await client.send_message(message.channel, "Build da Mesa que mantém um baixo custo na quarta habilidade sem tirar a duração necessária da terceira habilidade. \n https://i.imgur.com/2ecRuyg.jpg")
+    if message.content.upper().startswith ("!BUILD MESA"):
+        await client.send_message(message.channel, "Build da Mesa que mantém um baixo custo na quarta habilidade sem tirar a duração necessária da terceira habilidade. \n https://i.imgur.com/A7mkfdF.png")
 
     if "!BUILD NEKROS" in message.content.upper():
         await client.send_message(message.channel, "Build do Nekros projetada para manter sempre a terceira habilidade ativa usando o mod de Ampliação Despoil e alta eficiência com um raio gigantesco. \n https://i.imgur.com/0BiX2nK.jpg")
@@ -1655,17 +1661,23 @@ async def on_message(message):
     if message.content.upper().startswith ("!BUILD GRAM"):
         await client.send_message(message.channel, "Build para a Gram Prime com um massivo dano viral em uma grande área. \n https://i.imgur.com/mPZ9pUh.png")
 
-    if message.content.upper() == "!BUILD 15":
-        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+    if message.content.upper() == "!BUILD BARUUK":
+        await client.send_message(message.channel, "Há duas builds disponíveis para o Baruuk, especifique a sua escolha. \n !BARUUK CONTROLE \n !BARUUK MISTA")
 
-    if message.content.upper() == "!BUILD 16":
-        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+    if message.content.upper().startswith ("!BARUUK CONTROLE"):
+        await client.send_message(message.channel, "Build do Baruuk com grande controle em área e 360° graus em sua primeira habilidade. \n https://i.imgur.com/Bf9I8hM.png")
 
-    if message.content.upper() == "!BUILD 17":
-        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+    if message.content.upper().startswith ("!BARUUK MISTA"):
+        await client.send_message(message.channel, "Build do Baruuk para quem prefere um estilo mais agressivo e arriscado. \n https://i.imgur.com/ADgrpyF.png")
 
-    if message.content.upper() == "!BUILD 18":
-        await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
+    if message.content.upper() == "!BUILD GARUDA":
+        await client.send_message(message.channel, "Build da Garuda com um altíssimo sustain e com bastante dano em seu combo. \n https://i.imgur.com/931Z0OZ.png")
+
+    if message.content.upper() == "!BUILD EXCALIBUR UMBRA":
+        await client.send_message(message.channel, "Build do Excalibur Umbra que permite um longo período com sua ultimate canalizada, enquanto torna possível o uso completo de seu kit. \n https://i.imgur.com/jUiRn48.png")
+
+    if message.content.upper() == "!BUILD UMBRA":
+        await client.send_message(message.channel, "Build do Excalibur Umbra que permite um longo período com sua ultimate canalizada, enquanto torna possível o uso completo de seu kit. \n https://i.imgur.com/jUiRn48.png")
 
     if message.content.upper() == "!BUILD 19":
         await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
