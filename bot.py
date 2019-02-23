@@ -1402,7 +1402,7 @@ async def on_message(message):
         await client.send_message(message.channel, "Build da Nikana Prime focada em seu alto dano crítico. \n https://i.imgur.com/ibrqVtG.png")  
 
     if message.content.upper().startswith ("!NIKANA STATUS"):
-        await client.send_message(message.channel, "Build da Nikana Prime com alto dano corrosivo. \n https://i.imgur.com/KXT7qRc.png")
+        await client.send_message(message.channel, "Build da Nikana Prime com alto dano viral crítico. \n https://i.imgur.com/BHROovm.png")
 
     if "!BUILD AKSTILETTO" in message.content.upper():
         await client.send_message(message.channel, "Build da Akstiletto Prime com foco em dano de status corrosivo multiplicado pelo dano crítico. \n https://i.imgur.com/b5SBlP7.png")
@@ -1495,8 +1495,19 @@ async def on_message(message):
     if message.content.upper() == "!BUILD SWEEPER PRIME":
         await client.send_message(message.channel, "Build para a arma padrão do Carrier Prime. \n https://i.imgur.com/XAbSPev.png")
 
-    if message.content.upper() == "!BUILD KHORA":
+    if "!BUILD KHORA" in message.content.upper():
+        await client.send_message(message.channel, "Há duas build disponíveis para a Khora, especifique a sua escolha. \n !DOMO \n !WHIPCLAW")
+
+
+    if message.content.upper() == "!DOMO":
         await client.send_message(message.channel, "Build da Warframe Khora com um grande controle fornecido por sua segunda e quarta habilidade. \n https://i.imgur.com/5XsxkGy.png")
+
+    if message.content.upper() == "!WHIPCLAW":
+        await client.send_message(message.channel, "Build da Warframe Khora com alto dano em sua primeira habilidade, fornecido pelo mod de ampliação da mesma. Use o comando !BUILD WHIP para ter acesso à build recomendada para a melee. \n https://i.imgur.com/ykyJH6q.png")
+
+    if message.content.upper().startswith ("!BUILD WHIP"):
+        await client.send_message(message.channel, "Build recomendada para que exerça alto dano com a build Whipclaw da Khora. O espaço aberto é para que você coloque o mod riven de sua arma, já que a habilidade permite o uso dele. \n https://i.imgur.com/uQVnd8J.png")
+
 
     if message.content.upper() == "!KHORA":
         await client.send_message(message.channel, "As partes do Warframe Khora dropam no Massacre do Santuário Normal. \n https://www.youtube.com/watch?v=jaK6cZk-Ris")
