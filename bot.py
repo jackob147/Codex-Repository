@@ -1777,7 +1777,7 @@ async def on_message(message):
     if message.content.upper() == "!BUILD 45":
         await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
 
-    if message.content.upper() == "!BUILD 416":
+    if message.content.upper() == "!BUILD 41":
         await client.send_message(message.channel, "Build para a Amprex com um alto dano corrosivo crítico. \n https://i.imgur.com/NGlgOBz.png")
 
     if message.content.upper() == "!BUILD 47":
